@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Russian-Tajik Dictionary</string>
+    <string name="app_name">Russian-Uzbek Dictionary</string>
     <string name="type_here_to_filter">Type here to filter</string>
     <string-array name="dicts">
-        <item>Russian-Tajik</item>
-        <item>Tajik-Russian</item>
+        <item>Russian-Uzbek</item>
+        <item>Uzbek-Russian</item>
     </string-array>
 
     <string name="please_wait">Please wait</string>

@@ -2,6 +2,8 @@ gradle.properties
 
 # Crashlytics
 app/crashlytics.properties
+app/src/main/res/raw/rus_uz.csv
+app/src/main/res/raw/uz_rus.csv
 
 ##### Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm #####
 ##### (thanks to https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore) #####
