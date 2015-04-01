@@ -1,0 +1,857 @@
+ibora_id%ibora_rus%ibora_uz%mavzu_id
+1%Спасибо%Rahmat%1
+2%Большое спасибо%Katta rahmat%1
+3%Пожалуйста (в ответ на «спасибо»)%Marhamat («rahmat»ga javoban)%1
+4%Да%Ha%1
+5%Нет%Yo'q%1
+6%Пожалуйста (просьба)%litimos%1
+7%Вот, пожалуйста (что-то даешь)%Маnа, marhamat (nimadir berganda)%1
+8%Понимаю%Tushunaman%1
+9%Хорошо%Yaxshi%1
+10%Ничего%Hech narsa%1
+11%Не расстраивайтесь (огорчайтесь!)%Xafa bo'lmang!%1
+12%Как далеко от города?%Shahardan qancha uzoqda?%1
+13%Далеко от города?%Shahardan uzoqmi?%1
+14%Сколько?%Nechta?%1
+15%Сколько здесь книг?%Bu yerda nechta kitob bor?%1
+16%Сколько это стоит?%Buning narxi qancha?%1
+17%Как долго?%Qancha vaqtni oladi?%1
+18%Сюда, пожалуйста%Marhamat, bu yerga%1
+19%Кого спросить?%Kinuii so'rayman?%1
+20%Не понимаю%Tushunmayapman%1
+21%Извините, я не расслышал%Kechiring, yaxshi eshitmadim%1
+22%После вас%Sizdan keyin%1
+23%Здесь сильное движение%Bu yerda harakatlanish katta%1
+24%Я заблудился%Men adashib qoldim%1
+25%Вы говорите по-русски?%Siz ruscha gapirasizmi?%1
+26%Доброе утро!%Salom (Xayrli tong!)%2
+27%Добрый день!%Salom (Xayrli kun!)%2
+28%Добрый вечер!%Saiom (Xayrli kech!)%2
+29%Спокойной ночи%Xayrli tun%2
+30%Привет!%Salom!%2
+31%Здравствуйте%Assalomu alaykum%2
+32%Давайте встретимся в (гостинице)%Keling,  (mehmonxonada)   uchrashamiz (uchrashaylik)%2
+33%Приятно познакомиться%Tanishganimdan xursandman%2
+34%Рад Вас снова видеть%Sizni yana ko'rishdan xursandman%2
+35%Я женат (замужем)%Men uylanganman (turmush  qurganman)%2
+36%Я холост (не замужем)%Men bo'ydoqman (turmush qurmaganman)%2
+37%Как Ваши дела?%Ishlaringiz qalay?%2
+38%Как успехи?%Qanday niuvaffaqiyatlarga erishdingiz?%2
+39%Какие новости?%Qanday yangiliklar bor?%2
+40%Что нового?%Yangiliklar bormi?%2
+41%Давненько Вас не видел%Ko'rishmaganimizga ancha bo'ldi%2
+42%Можно узнать, как Вас зовут?%Kechirasiz, ismingiz nima?%2
+43%Вот моя визитная карточка%Mana mening tashrif qog'ozim%2
+44%Позвольте представить Вас моему мужу (моей жене)%Erimni (xotinimni)   tanishtirishga ruxsat eting%2
+45%Передайте привет от меня Вашей маме%Onangizga mening nomimdan salom deb qo'ying%2
+46%Передавайте наилучшие пожелания от меня Вашей матери%Onangizga eng yaxshi tilaklarimni aytib qo'ying%2
+47%Передавай привет Николаю%Nikolayga mendan salom deb qo'y%2
+48%Спасибо, с удовольствием%Rahmat, bajon-u dil%2
+49%С удовольствием%Bajon-u dil%2
+50%До свидания%Xayr%2
+51%До встречи%Ko'rishguncha xayr%2
+52%До скорой встречи%Yaqin orada ko'rishguncha xayr%2
+53%Счастливо%Yaxshi qoling%2
+54%Не пропадайте%Yo'q bolib ketmang%2
+55%С нетерпением жду нашей следующей встречи%Navbatdagi uchrashuvimizni orziqib kutaman%2
+56%Вы завтра свободны?%Ertaga bo'shmisiz?%3
+57%Хотите погулять со мной?%Men bilan sayr qilishni xohlaysizmi?%3
+58%Позвольте мне быть Вашим гидом%Sizga yo'lboshiovchilik qilishga ruxsat eting%3
+59%Пойдете со мной за покупками?%Men bilan narsalar xarid qilishga borasizmi?%3
+60%Пойдемте купаться%Yuring, cho'milgani boramiz%3
+61%Не хотите чего-нибудь поесть?%Biron narsa yeb olmaysizmi?%3
+62%Выглядит неплохо%Ko'rinishi yomon emas%3
+63%Позвольте предложить Вам что-нибудь выпить%Biror ichkilik taklif qilishga ruxsat eting%3
+64%Хотите чего-нибудь выпить?%Biron narsa ichishni xohlaysizmi?%3
+65%Ваше здоровье!%Sizning sog'lig'ingiz uchun!%3
+66%Не пора ли попить чаю?%Choy ichish payti kelmadimikan?%3
+67%Еще чашечку кофе, пожалуйста%Iltimos, yana bir chashka kofe (iching)%3
+68%Чувствуйте себя как дома%O'zingizni uyingizdagidek his qiling%3
+69%Давайте платить пополам%Keling. ikkalamiz baravariga (teng) bo'lib to'laymiz%3
+70%Он оплатит счет%Haqni u to'laydi%3
+71%Мне нравится Ваша новая прическа%Menga Sizning yangi soch turmagingiz (prichoskangiz)  yoqdi%4
+72%У Вас великолепный вкус в одежде%Sizning kiyinish didingiz yaxshi%4
+73%Какая Вы очаровательная девушка!%Siz juda chiroyli qizsiz!%4
+74%Спасибо за комплимент%Maqtov uchun rahmat%4
+75%Спасибо за прекрасный день%Ajoyib kun uchun rah mat%4
+76%Спасибо, что встретили меня (зашли за мной)%Meni kutib olganingiz (olib ketgani kirganingiz)  uchun rahmat%4
+77%Очень любезно с Вашей стороны%Iltifotingiz uchun rahmat%4
+78%Вы очень добры%Siz juda mehribonsiz%4
+79%Я очень Вам благодарен%Men Sizdan juda minnatdorman%4
+80%Спасибо и извините за беспокойство%Rah mat, bezovta qilganim uchun uzr%4
+81%Весьма признателен%Juda minnatdorman%4
+82%Я очень Вам обязан%Sizdan juda qarzdorman%4
+83%Извините (если привлекаешь внимание, прерываешь).%Uzr (agar birovning e'tiborini tortgan yoki gapini bo'lgan bo'lsangiz)%5
+84%Извините (если извиняешься)%Kechirasiz (kechirim so'rayotgan bo'lsangiz)%5
+85%Извините, я на секунду%Kechirasiz, men bir lahzaga%5
+86%Подождите минуту, пожалуйста%Iltimos, bir daqiqa kutib turing%5
+87%Это моя вина%Bu mening aybim%5
+88%Я был неосторожен%Men ehtiyotsizlik qilibman%5
+89%Я не хотел Вас обидеть%Sizni xafa qilmoqchi emasdim%5
+90%В следующий раз постараюсь%Keyingi safar yaxshiroq harakat qilaman%5
+91%Извините за опоздание%Kechikkanim uchun uzr%5
+92%Извините, что заставил Вас ждать%Uzr, kuttirib qo'ydim%5
+93%Я не помешаю?%Xalaqit bermaymanmi?%5
+94%Можно Вас побеспокоить на секунду?%Bir lahzaga bezovta qilsam maylimi?%5
+95%Нет, ничего%Yo'q, hechqisi yo'q%5
+96%Ничего, пожалуйста%Hechqisi yo'q, marhamat%5
+97%Ничего%Hechqisi yo'q%5
+98%Простите%Kechirasiz%6
+99%Повторите, пожалуйста%Iltimos, gapingizni qaytaring%6
+100%Пожалуйста,  говорите немного медленнее%Iltimos, sekinroq gapiring%6
+101%Напишите это здесь, пожалуйста%Iltimos, buni mana bu yerga yozing%6
+102%Пожалуйста, поторопитесь%Iltimos, ildamroq harakat qiling%6
+103%Пойдемте со мной!%Men bilan yuring!%6
+104%Пожалуйста, вызовите врача.%Iltimos, vrachni chaqiring.%6
+105%Не одолжите...?%...ni berib turolmaysizmi?%6
+106%Сделайте одолжение%Menga bir iltifot ko'rsating%6
+107%Можно взглянуть?%Ko'rsam bo'ladimi?%6
+108%Можно одолжить Вашу ручку?%Ruchkangizni berib turmaysizmi?%6
+109%Помогите донести, пожалуйста%Iltimos, ko'tarishib yuboring%6
+110%Пожалуйста,  помогите мне с этими пакетами%Iltimos,   mana bu paketlarni eltishga yordam bering (ko'tarishib yuboring)%6
+111%Не отправите ли за меня письмо?%Xatimni jo'natib yubora olmaysizmi?%6
+112%Помогите мне с этой проблемой%Menga shu muanimoni hal qilishga yordam bering%6
+113%Можно узнать Ваш адрес?%Adresingizni (manzilingizni)  bilsam bo'ladimi?%6
+114%Не подбросите до центра?%Markazgacha eitib qo'yolmaysizmi?%6
+115%Что это?%Bu nima?%6
+116%Что это значит?%Bu nima degani?%6
+117%Где туалет?%Hojatxona qayerda?%6
+118%Чем скорее, тем лучше%Qancha tezbovlsa, shuncha yaxshi%6
+119%Я не уверен%Ishorichim komil emas%7
+120%Не думаю%Bunday deb o'ylamayman%7
+121%Боюсь, что нет%Afsuski yo'q%7
+122%Невероятно (Удивительно!)%Aql bovar qilmaydi (Ajabo!)%7
+123%Боюсь, что Вы ошиблись%Menimcha, siz adashdingiz%7
+124%О, как жаль%Eh, afsus%7
+125%У меня плохое настроение%Kayfiyatim yomon%7
+126%Это отвратительно%Bu yaxshi emas%7
+127%Успокойся, все будет в порядке%Xavotir olma, hammasi joyida bo'ladi%7
+128%Не надо нервничать%Asabiylashmang%7
+129%Не торопитесь%Shoshilmang%7
+130%Не обращай (те)   внимания на то, что  он сказал%Gapiga parvo qilmang%7
+131%Не унывайте!%Tushkunlikka tushmang!%7
+132%Какая жалость!%Esizgina!%7
+133%Вот так сюрприз!%Ana xolos!%7
+134%Вы, должно быть, шутите?!%Hazillashmayapsizmi?!%7
+135%Не шутите%Hazillashmang%7
+136%О боже, какой кошмар!%Astag'firullo!%7
+137%Который час?%Soat necha? (Soat necha bo'ldi)%8
+138%Сколько времени?%Qancha vaqt?%8
+139%Семь часов%Soat yetti (Soat yetti bo'ldi)%8
+140%Без четверти восемь%Chorakta kam sakkiz%8
+141%Десять минут пятого%To'rtdan o'n daqiqa o'tdi%8
+142%Полдевятого%Sakkiz yarim bo'ldi%8
+143%Рано%Hali erta%8
+144%Уже поздно?%Kech bo'ldimi?%8
+145%Я не опоздал?%Kechikmadimmi?%8
+146%Сколько времени идти туда пешком?%U yerga qancha vaqt piyoda yurish kerak?%8
+147%Поздравляю!%Tabriklayman!%9
+148%Поздравляю с днем рождения!%Tug'ilgan kiningiz bilan tabriklayman!%9
+149%С Рождеством!%Rojdestvo bayramingiz qutlug' bo'lsin!%9
+150%Наилучшие пожелания в новом году!%Yangi yilda sizga eng yaxshi tilaklar tilab qolaman!%9
+151%Желаю счастья сегодня и всегда!%Bugun  va   har   doim sizga   baxt yor bo'lsin!%9
+152%Желаю Вам счастья и многих лет жизни%Sizga uzoq umr va baxt-saodat tilayman%9
+153%Поздравляю от всей души%Chin qalbimdan tabriklayman%9
+154%Желаю Вам поскорее выздороветь%Tezroq sog'ayib keting%9
+155%Счастливой поездки!%Yaxshi borib keling!%9
+156%Удачи!%Muvaffaqiyat tilayman!%9
+157%Давайте еще раз встретимся!%Keling, yana uchrashamiz!%9
+158%Какой чудесный день!%Qanday ajoyib kun!%10
+159%Жарко%Issiq%10
+160%Опускается туман%Tuman tushyapti%10
+161%Небо расчищается%Havo ochilyapti%10
+162%Завтра будет солнечно%Ertaga kun ochiq bo'ladi%10
+163%Какой ужасный день!%Naqadar yomon kun bo'ldi!%10
+164%Интересно, будет жара?%Qiziq, kun issiq bo'larmikan?%10
+165%Какая, по-вашему, будет погода?%Sizningcha, ob-havo qanday bo'ladi?%10
+166%Это прямой рейс?%Bu to'g'ridan to'g'ri reysmi?%11
+167%В этом рейсе есть промежуточные посадки?%Вu reysda oraliq qo'nishlar bormi?%11
+168%Какие есть рейсы до Бухары?%Buxoroga qanday reyslar bor?%11
+169%Пожалуйста, проверьте в других компаниях%Iltimos, boshqa kompaniyalarda tekshirib ko'ring%11
+170%Не могли бы Вы уточнить,  есть ли билеты на этот рейс?%Bu reysga chiptalar borligini aniqlashtirib berolmaysizmi?%11
+171%Сколько рейсов в день?%Bir kunda nechta reys bor?%11
+172%Когда мне нужно быть в аэропорту?%Aeroportga qachon yetib kelishim kerak?%11
+173%Сколько мне можно брать багажа?%Qancha yuk olsam bo'ladi?%11
+174%У меня нет багажа%Mening yukim yo'q%11
+175%Сколько стоит билет?%Chipta necha pul turadi?%11
+176%Есть ли какие-нибудь скидки?%Biron-bir chegirmalar bormi?%11
+177%Забронируйте место на ближайший рейс до Бухары, пожалуйста%Iltimos, Buxorogacha eng yaqin reysga bitta o'rinni bronlashtirib bersangiz%11
+178%Один билет до Бухары, бизнес-класс%Buxorogacha, biznes-klassga bitta chipta bersangiz%11
+179%Я хотел  бы вернуть свой билет до Варшавы%Men Varshavagacha olgan chiptamni qaytarmoqchiman%11
+180%Снимите этот заказ, пожалуйста%Iltimos, bu buyurtmani bekor qiling%11
+181%Я хотел бы подтвердить заказ%Men buyurtmamni tasdiqlamoqchiman%11
+182%Я хочу изменить заказ%Men buyurtmamni o'zgartirmoqchiman%11
+183%Где здание аэропорта?%Aeroport binosi qayerda?%12
+184%Где проходит регистрация?%Ro'yxatga olish qayerda o'tkaziladi?%12
+185%Отправьте багаж в мою гостиницу%Yukimni mehmonxonamga yuboring%12
+186%Сколько нужно платить за дополнительный вес?%Qo'shimcha yuk uchun  qancha  haq to'lanadi?%12
+187%Я  хотел  бы отправить этот багаж   в Шахрисабз%Men bu yukni Shahrisabzga jo'natmoqchiman%12
+188%Я транзитом до Самарканда.%Men tranzit bilan Samarqandgacha boraman%12
+189%На какой выход мне пройти?%Qaysi eshikdan chiqiladi?%12
+190%Этот рейс отправится вовремя?%Bu reys vaqtida jo'naydimi?%12
+191%Я хотел  бы забронировать место в салоне для некурящих%Men chekmaydiganlar salonida bir o'rinni branlashtirsam deyman%12
+192%Дайте (уступите)   мне место у окна, пожалуйста.%Iltimos, menga oyna yonidan joy bering%12
+193%Где это место?%Bu joy qayerda?%13
+194%Не могли бы Вы поменяться со мной местами?%Men bilan o'rningizni almashtirolmaysizmi?%13
+195%У Вас есть газета на русском языке?%Sizda rus tilidagi gazeta bormi?%13
+196%Не могли бы Вы принести мне одеяло?%Menga adyol olib kelib beroimaysizmi?%13
+197%Принесите подушку, пожалуйста%Iltimos, yostiq keltiring%13
+198%Можно еще один напиток?%Ichimlikdan yana olsam maylimi?%13
+199%Можно еще орехов?%Yana yong'oq keltiring%13
+200%Я хотел бы заказать напитки%Ichimlik buyurtma qilmoqchiman%13
+201%Чай, пожалуйста%Iltimos, choy keltiring%13
+202%Есть ли на борту стюардесса, говорящая по-русски?%Bortda ruscha so'zlashadigan stuardessa bormi?%13
+203%Вы можете перевести это на русский?%Siz buni ruschaga tarjima qilib bera olasizmi?%13
+204%Пожалуйста, не курите здесь%Iltimos, bu yerda chekmang%13
+205%На сколько отложен рейс?%Reys qancha vaqtga kechiktirildi?%13
+206%Надолго мы здесь остановились?%Biz bu yerda uzoq turamizmi?%13
+207%Мне плохо%O'zimni yomon his qilyapman%13
+208%Можно мне откинуть спинку?%O'rindiq suyanchig'ini tushirsam bo'ladimi?%13
+209%Можно в самолете и в аэропорту купить что-нибудь без пошлины?%Samolyotda va aeroportda  boj to'lovisiz biron narsa xarid qilsa bo'ladimi?%13
+210%Мне нужны наушники для просмотра кино%Kino ko'rish  uchun  menga naushnik kerak%13
+211%Это не работает%Bu ishlamaydi%13
+212%Когда мы прибываем?%Qachon yetib kelamiz?%13
+213%Дайте мне бланк декларации%Menga deklaratsiya blankasini bering%14
+214%Дайте мне, пожалуйста, другой бланк декларации%Iltimos, menga boshqa deklaratsiya blankasini bering%14
+215%Покажите, пожалуйста, как заполнять эту форму%Bu formani qanday to'ldirish kerakligini ko'rsating, iltimos%14
+216%Вот мой паспорт%Mana, mening pasportim%14
+217%Поставьте мне, пожалуйста, штамп в паспорт%Iltimos, pasportimga shtamp bosib bersangiz%14
+218%Какова цель Вашей поездки?%Safardan maqsadingiz qanday?%14
+219%Я турист%Men sayyohman%14
+220%Я в отпуске%Men ta'tildaman%14
+221%Я в командировке%Men xizmat safaridaman%14
+222%Это мой первый приезд%Bu yerga birinchi kelishim%14
+223%Я  приехал (а)   к знакомым (по вызову)%Tanishlarimnikiga (ularning taklifiga  binoan)  keldim%14
+224%Я лриехал(а)   к родственникам (по вызову)%Qarindoshlarimnikiga (ularning chaqiruvi bilan) keldim%14
+225%Как долго Вы здесь пробудите?%Bu yerda qancha vaqt bo'lasiz?%14
+226%Я собираюсь пробыть здесь две недели%Bu yerda ikki hafta bo'lmoqchiman%14
+227%Вот моя транзитная виза%Mana. mening tranzit qog'ozim%14
+228%У меня только предметы личного пользования%Menda faqat shaxsiy buyumlar   bor, xolos%14
+229%Это подарок для друга%Bu do'stim uchun sovg'a%14
+230%Эта моя личная видеокамера%Bu mening shaxsiy videokameram%14
+231%Это стоит около ...%Buning narxi taxminan ...%14
+232%Мне нечего декларировать%Deklaratsiyada  ko'rsatadigan hech  narsam yo'q%14
+233%Беспошлинный магазин%Boj to'lanmaydigan do'kon%14
+234%Можно в этом аэропорту что-нибудь купить?%Bu aeroportda biror  narsa xarid qilsa bo'ladimi?%14
+235%Мне нужно будет платить пошлину за товары, которые я здесь купил?%Bu yerda xarid qilgan narsalarim uchun boj to'lashim kerakmi?%14
+236%Дайте мне чек%Сhek bering%14
+237%Где можно получить багаж?%Yukimni qayerdan olsam bo'ladi?%15
+238%Вот моя багажная квитанция%Mana, mening yuk uchun kvitansiyam%15
+239%Я не могу найти свой багаж%O'z yukimni topa olmayapman%15
+240%Мне не выдали багажную квитанцию при регистрации%Ro'yxatga olish paytida menga yuk uchun kvitansiya berishmadi%15
+241%Мой багаж  поврежден,   и некоторых вещей не хватает%Yukimgashikast yetgan va ba'zi buyumlarim yo'q%15
+242%Где можно найти носильщика?%Hammolni qayerdan topsam bo'ladi?%15
+243%Это мой багаж%Bu mening yuklarim%15
+244%Пожалуйста, отнесите эти вещи к стоянке такси%Iltimos, bu yuklarni taksi to'xtaydigan joyga eltib bering%15
+245%В багаже есть хрупкие предметы%Yuklarning ichida sinadigan buyumlar bor%15
+246%Будьте осторожны, пожалуйста%Iltimos, ehtiyot boiing%15
+247%Можно взять эту багажную тележку?%Bu yukaravachasini olsam bo'ladimi?%15
+248%Где находится информационное бюро?%Axborot byurosi qayerda?           ,%16
+249%Я транзитный пассажир до Хивы%Men Xivagacha ketayotgan tranzit yo'lovсhiman%16
+250%Я успею сделать пересадку в тот же день?%Shu   kuniyoq  boshqa  samolyot  bilan uchishga ulguramanmi?%16
+251%Сколько нужно времени на пересадку?%Boshqa samolyotga   o'tirishga qancha vaqt kerak?%16
+252%Можно мне заказать номер в гостинице?%Mehmonxonadan joy buyurtma qilsam bo'ladimi?%16
+253%Где я могу сесть на автобус в город?%Shaharga boradigan avtobusga qayerda o'tirsam bo'Iadi?%16
+254%Я делал заказ%Men buyurtma bergan edim%17
+255%Места были зарезервированы для меня и моей семьи%Men va mening oilam uchun o'rinlar zaxiralashtirilgan edi%17
+256%Заказ был подтвержден в Москве%Buyurtma Moskvada tasdiqlangan edi%17
+257%У вас есть свободные места?%Bo'sh o'rinlar bormi?%17
+258%Мне нужна комната%Menga xona kerak%17
+259%Я хотел бы одноместный номер%Menga bir kishilik joy kerak%17
+260%Я хотел бы номер с ванной%Menga yuvinish xonasi bor nomer kerak%17
+261%Я хотел бы номер с двумя кроватями%Menga ikkita karavotli joy kerak%17
+262%Нам нужен двухместный номер с дополнительной кроватью%Bizga qo'shimcha karavotli ikki  kishilik joy kerak%17
+263%Есть что-нибудь подешевле?%Arzonroq joylar bormi?%17
+264%Не могли бы Вы показать мне комнату получше?%Yaxshiroq xonani ko'rsata olmaysizmi?%17
+265%Не могли бы Вы показать мне комнату побольше (поменьше)?%Kattaroq (kichikroq)   xonani ko'rsata olmaysizmi?%17
+266%Дайте комнату с красивым видом из окна%Derazasidan chiroyli manzara ko'rinadigan xonani bering%17
+267%Какова плата за обслуживание?%Xizmat haqi qancha bo'ladi?%17
+268%Надбавка за обслуживание учтена?%Xizmat ko'rsatish uchun ustama haqi hisobga olinganmi?%17
+269%Сколько стоит номер,  включая завтрак?%Nonushtani  ham qo'shganda,   turar joyimiz necha pul turadi?%17
+270%Завтрак включен?%Nonushta kiritilganmi?%17
+271%Сколько это стоит в день?%Bir kuniga necha pul turadi?%17
+272%Вам нужен залог?%Garov qo'yishim kerakmi?%17
+273%Когда я должен освободить номер?%Joyni qachon bo'shatishim kerak?%17
+274%Вам нужен мой паспорт?%Pasportim kerakmi?%17
+275%Можете порекомендовать другую гостиницу?%Boshqa mehmonxonani tavsiya qila olasizmi?%17
+276%Я сниму этот номер на неделю (месяц)%Bu joyni bir haftaga (oyga) olaman%17
+277%Войдите%Kiring%18
+278%Я хотел бы .сдать на хранение некоторые ценные вещи%Ba'zi qimmatbaho buyumlarni saqlashga topshirmoqchi edim%18
+279%Я хотел бы забрать мои ценные вещи%Qimmatbaho buyumlarimni  qaytarib olmoqchiman%18
+280%Пошлите,   пожалуйста,  багаж в мои номер%lltimos,   yuklarimni yashash joyimga yuborsangiz%18
+281%Пожалуйста, пошлите кого-нибудь за моим багажом%lltimos, biron kishini yukimni olib kelish uchun yuborsangiz%18
+282%Не могли бы Вы присмотреть за моим багажом?%Yukimga qarab tura olmaysizmi?%18
+283%Я хотел бы забрать свой багаж%Men okz yuklarimni olmoqchiman%18
+284%В моей комнате есть розетка для электробритвы?%Xonamda elektr  ustara uchun rozetka bormi?%18
+285%Пожалуйста, принесите мне горячей воды%lltimos, menga issiq suv keltiring%18
+286%Не могли бы  Вы дать мне еще одно одеяло?%Menga yana bitta adyol beга оlmaysizmi?%18
+287%Как включать кабельное телевидение?%Kabelli televideniyani qanday yoqtirsam bo'ladi?%18
+288%Вам известен код Вашей страны?%Mamlakatingiz kodini bilasizmi?%18
+289%Какой код России?%Rossiyaning kodi qanaqa?%18
+290%В какое время работает ресторан?%Restoran qaysi paytda ishlaydi?%18
+291%Можно заказать завтрак в номер?%Xonamga nonushta buyurtma qilsa bo'ladimi?%18
+292%В полвосьмого, пожалуйста%Soat yetti yarimda, iltimos%18
+293%Я хотел бы заказать завтрак на завтра%Ertaga nonushta buyurtma qilmoqchi edim%18
+294%Вот мой заказ%Mana Mening buyurtmam%18
+295%Могу я пойти пешком,   или лучше взять такси?%Piyoda borsam bo'ladimi,   yoki  taksi ushlaganim ma'qulmi?%18
+296%Мне кто-нибудь звонил?%Menga biror kishi qo'ng'iroq qildimi?%18
+297%Пожалуйста,  дайте мне карточку с адресом этой гостиницы%Iltimos, Menga shu mehmonxona manzili yozilgan kartochkani bersangiz%18
+298%Я хотел бы сдать это в стирку%Men bu kirni yuvishga bermoqchi edim%18
+299%Будьте осторожны, пожалуйста%Ehtiyot bo'ling, iltimos%18
+300%Отправьте,   пожалуйста,   эту одежду в стирку%Iltimos, bu kiyimni yuvishga yuboring%18
+301%Вы можете почистить и отгладить этот костюм?%Mana bu kastumni tozalab,  dazmollab bera olasizmi?%18
+302%Можете пришить эти пуговицы?%Mana bu tugmalarni qadab berolmaysizmi?%18
+303%Можете удалить это пятно?%Mana bu dog'ni ketkazib bera olasizmi?%18
+304%Выгладите это, пожалуйста%Iltimos, dazmollab bering%18
+305%Когда это будет готово?%Bu qachon tayyor bo'ladi?%18
+306%Мне это нужно к десяти часам%Bu menga soat o'nga kerak%18
+307%Будьте добры, разбудите меня в семь часов утра%Iltimos, meni ertalab soat yettida uyg'oting%18
+308%Пожалуйста,  сделайте уборку в этой комнате%Iltimos, xonamni tozalab qo'ying%18
+309%Принесите мне, пожалуйста, полотенце%Iltimos, menga sochiq keltiring%18
+310%Не могли бы Вы вызвать такси?%Iltimos, taksi chaqirib bering%18
+311%Сколько времени ехать в аэропорт на такси?%Aeroportgacha taksida qancha vaqt yuriladi?%18
+312%Телевизор не работает%Televizor ishlamayapti%19
+313%Нет туалетной бумаги%Hojat qog'ozi yo'q%19
+314%Нет мыла%Sovun yo'q%19
+315%Замок сломан%Qulf buzuq%19
+316%Раковина засорена%Rakovina tiqilib qolgan%19
+317%Нет горячей воды%Issiq suv  yo'q%19
+318%Я хотел бы поменять комнату%Xonani almashtirmoqchi edim%19
+319%Я до сих пор жду заказанный завтрак%Buyurgan noiiushtamni haligacha kutyapman%19
+320%Тут, должно быть, ошибка%Bu yerda anglashilmovchilik bo'lgan bo'lsa kerak%19
+321%Это не мое%Bu meniki emas%19
+322%Пятна не удалили%Dog' ketmabdi%19
+323%Я заказывал одну двуспальную кровать, а получил две односпальные%Men ikki kishilik karavot buyurtma qilgandim, ikkita bir kishilik karavot berishibdi%19
+324%Эта комната слишком маленькая. У вас есть побольше?%Bu xona juda kichkina ekan. Kattarog'i yo'qmi?%19
+325%Я уезжаю%Men jo'nab ketyapman%20
+326%Я уезжаю завтра%Ertaga jo'nayman%20
+327%Я хотел бы уехать на день раньше%Bir kun oldinroq jo'namoqchi edim%20
+328%Когда мне нужно освободить комнату?%Xonani qachon bo'shatishim kerak?%20
+329%Я хотел бы продлить мое пребывание на несколько дней%Tashrifimni bir necha kunga uzaytirmoqchiman%20
+330%Можно получить счет?%Hisob-kitob varag'ini olsam bo'ladimi?%20
+331%Можно взглянуть на счет?%Hisob-kitob bilan tanishsam maylimi?%20
+332%За что этот счет?%Bu hisob-kitob nima uchun?%20
+333%По-моему, это дороговато%Menimcha, bu qimmatroq%20
+334%Извините, но это не моя подпись%Kechirasiz, biroq bu mening imzoim emas%20
+335%Вы принимаете кредитные карточки?%Kredit kartochkalarini qabul qilasizlarmi?%20
+336%Мне очень здесь понравилось%Menga bu yer juda yoqdi%20
+337%Где находится столовая?%Oshxona qayerda?%21
+338%Здесь есть буфет?%Bu yerda bufet bormi?%21
+339%В моей комнате есть мини-бар?%Xonamda mini-bar bormi?%21
+340%У вас есть гараж?%Sizlarda garaj bormi?%21
+341%Здесь есть бассейн (сауна)?%Bu yerda basseyn (sauna) bormi?%21
+342%Здесь есть косметический салон?%Bu yerda kosmetika saloni bormi?%21
+343%Где аварийный выход?%Avariya yuz berganda qayerdan chiqiladi?%21
+344%Я хочу снять квартиру%Men kvartirani ijaraga olmoqchi edim%22
+345%Я хотел бы снять двухкомнатную квартиру%Men ikki xonali kvartirani ijaraga olmoqchi edim%22
+346%Я бы  предпочел  мебеллированную квартиру%Menga jihozli kvartira kerak%22
+347%Сколько нужно заплатить сразу?%Pulning qanchasini oldindan to'lash kerak?%22
+348%Сколько надо платить в месяц?%Bir oyda qancha toiash kerak?%22
+349%Можно снять гараж?%Garajni ijaraga olish mumkinmi?%22
+350%Здесь есть поблизости хороший ресторан?%Yaqinroqda yaxshiroq restoran bormi?%23
+351%Вы можете порекомендовать хороший ресторан?%Yaxshiroq restoranni tavsiya qila olasizrni?%23
+352%Что-нибудь не слишком дорого%Arzonroq biror nima%23
+353%Здесь поблизости есть корейский ресторан?%Yaqinroqda koreys restorani bormi?%23
+354%Я хотел бы пойти в ресторан национальной кухни%Milliy taomlar  restoraniga bormoqchiman%23
+355%Я хотел бы попробовать лучшие местные блюда%Eng yaxshi mahalliy taomlardan tatib ko'rmoqchiman%23
+356%Нам нужно делать заказ заранее?%Oldindan buyurtma qilishimiz kerakmi?%23
+357%Вы не могли бы принять мой заказ?%Buyurtmamni qabul qila olasizmi?%23
+358%Когда вы открываетесь на завтрак?%Ertalab soat nechada ochilasizlar?%23
+359%Мне нужен стол на двоих%Menga ikki kishilikstol kerak%23
+360%У вас есть столик у окна?%Deraza oldida joylaringiz bormi?%23
+361%Нас шесть человек%Biz olti kishimiz%23
+362%У меня заказан столик%Men stol buyurtma qilganman%23
+363%Я хотел бы сделать заказ%Men buyurtma bermoqchiman%24
+364%Я хотел бы поужинать%Men kechki ovqatni tanovui qilmoqchiman%24
+365%Я бы предпочел легкий завтрак%Men yengil nonushtani ma'qul ko'raman%24
+366%Какой напиток Вы предпочитаете перед обедом?%Tushlikdan oldin qanday ichimlik ichasiz?%24
+367%Я возьму то, что Вы посоветуете%Siz nimani maslahat bergan bo'lardingiz?%24
+368%Что бы Вы посоветовали?%Nimani maslahat berasiz?%24
+369%Какое в этом ресторане фирменное блюдо?%Bu resloranning maxsus taomi bormi?%24
+370%Меню, пожалуйста%Iltimos, taomnomani bering%24
+371%Можно попросить меню и карту вин, пожалуйста%Iltimos, taomnomani va vinolar kartasini bering%24
+372%Вы подаете вегетарианское меню?%Sizda vegetariancha taomnoma bormi?%24
+373%У вас есть меню на русском?%Rus tilidagi taomnoma bormi?%24
+374%Какой у вас сегодня суп?%Bugun qanday sho'rva bor?%24
+375%Какой сегодня фирменный коктейль?%Bugun qanaqa kokteyl bor?%24
+376%Что будете заказывать?%Nima buyurtma qiiasiz?%24
+377%Я возьму то же самое%Men ham shundan olaman%24
+378%Я возьму это%Men buni olaman%24
+379%Сколько времени это займет?%Bu qancha vaqtni talab etadi?%24
+380%Шашлык%Kabob%24
+381%Я возьму только лепешку и чай%Men faqat obi non va choy olaman%24
+382%Лагман%Lag'mon%24
+383%Вам шашлык молотый, печеночный или кусковой?%Siz qanday kabobni xohlaysiz: qiymami, jigarmi yoki jaz kabobmi?%24
+384%Как вам приготовить?%Qanday pishiraylik?%24
+385%Средне пожаренный, пожалуйста%Iltimos, kuydirib yubormang%24
+386%Хорошо пожаренный, пожалуйста%Iltimos, yaxshi qovurilgan bo'lsin%24
+387%Карту вин, пожалуйста%Vinolar kartasini bering, iltimos%24
+388%Какие вина у вас есть?%Qanaqa vinolaringiz bor?%24
+389%Я бы хотел бутылку белого вина%Menga bir shisha oq vino bering%24
+390%Сколько стоит бутылка?%Bir shishasining narxi qancha?%24
+391%Сколько стоит один бокал?%Bir bokalining narxi qancha?%24
+392%Я бы хотел чашку чая (кофе)%Bir piyola choy (bir chashka kofe) bering%24
+393%Можно попросить стакан воды?%Bir stakan suv  bering%24
+394%Апельсиновый или томатный сок?%Apelsin sharbatimi yoki pomidor  sharbatimi?%24
+395%Как насчет чего-нибудь на десерт?%Shirinlik tanovul qilishga nima deysiz?%24
+396%Еще одну порцию каурмы, пожалуйста%Iltimos, yana bir porsiya qovurma bering%25
+397%Два гамбургера с собой, пожалуйста%Iltimos, ikkita gamburgerni o'rab bering%25
+398%С маслом%Yog'li bo'lsin%25
+399%С лимоном%Limonli boisin%25
+400%Еше немного, пожалуйста%Iltimos, yana ozgina bering%25
+401%Больше не надо, спасибо%Rahmat, boshqa kerak emas%25
+402%Передайте, пожалуйста, соль%Iltimos, tuzni uzatib yuboring%25
+403%Это вкусно?%Mazalimi bu?%25
+404%Было очень вкусно%Juda mazali ekan%25
+405%Я сыт%Men to'qman%25
+406%Можно мне взять это прямо сейчас?%Buni hoziroq olsam bo'ladimi?%25
+407%Поторопитесь, пожалуйста%Iltimos, tezroq bo'ling%25
+408%Это не мой заказ%Buni men buyurmaganman (bu mening buyurtmam emas)%25
+409%Мой заказ еше не принесли%Men buyurgan ovqatni hali olib kelishgani yo'q%25
+410%Как это едят?%Bu qanday yeyiladi?%25
+411%Поменьше соли%Tuzi kamroq bo'lsin%25
+412%Поменьше специй (про блюда)%Uncha achchiq bo'lmasin  (ovqat haqida)%25
+413%Не слишком сладко%Uncha shirin bo'lmasin%25
+414%Не слишком крепкий (про чай)%Uncha achchiq bo'lmasin (choy haqida)%25
+415%Это не проварено (не прожарено)%Yaxshi pishirilmagan (qovurilmagan)%25
+416%Очень жесткое%Juda qattiq%25
+417%Это не совсем свежее%Bu uncha yangi emas%25
+418%Это недостаточно чистое%Bu uncha toza emas%25
+419%Счет, пожалуйста%lltimos, hisob-kitob qiling%26
+420%Чек, пожалуйста%Marhamat, chekni oling%26
+421%Можно попросить счет?%lltimos, menga hisob-kitobni keltiring%26
+422%Могу я взять чек?%Chekni olsam bo'ladimi?%26
+423%Я бы хотел рассчитаться сейчас%Men hozir hisob-kitob qilmoqchiman%26
+424%Сколько я Вам должен?%Sizga necha pul berishim kerak?%26
+425%Сколько всего?%Hammasi qancha bo'ladi?%26
+426%Мне кажется, в счете ошибка%Menimcha, hisob-kitobda adashgansiz%26
+427%Я заплачу по счету%Men hisob-kitob bo'yicha haq to'layman%26
+428%Сегодня вечером я угощаю%Kechqurun men sizni mehmon qilaman%26
+429%Запишите это на мой счет,  пожалуйста%lltimos,   buni  mening hisobimga yozib qo'ying%26
+430%Я плачу за всех%Hamma uchun men haq to'layman%26
+431%Мы платим отдельно%Biz alohida-alohida to'laymiz%26
+432%Давайте заплатим поровну%Keling, yarmini siz, yarmini men to'lay%26
+433%Позвольте мне заплатить мою долю%Ruxsat eting, o'z ulushimni to'lasam%26
+434%Сдачи не надо%Qaytimi kerak emas%26
+435%Когда вы закрываетесь?%Qachon ishni tugatasizlar?%27
+436%Когда закрывается этот магазин?%Bu do'kon qachon yopiladi?%27
+437%До скольки Вы открыты в рабочие дни?%Ish kunlari soat nechagacha ishlaysizlar?%27
+438%Открыто с девяти до пяти%To'qqizdan beshgacha ochiq%27
+439%Закрыто с двенадцати до двух%O'n ikkidan ikkigacha yopiq%27
+440%Где здесь торговый центр?%Savdo markazi qayerda joylashgan?%27
+441%Там есть магазин по безналичному расчету?%U yerda naqd pulsiz savdo qiladigan do'kon bormi?%27
+442%Там есть универмаг?%U yerda univermag bormi?%27
+443%На каком этаже продовольственный отдел?%Oziq-ovqat bo'limi qaysi qavatda joylashgan?%27
+444%Какие оригинальные изделия есть в этом городе?%Bu shaharda qanday antiqa buyumlar bor?%27
+445%Где я могу это купить?%Buni qayerdan xarid qilsam bo'ladi?%27
+446%Я только смотрю%Men faqat ko'ryapman%28
+447%Это дорого?%Bu qimmat turadimi?%28
+448%Это неплохо, но дороговато%Yomon emas-u, qimmatroq ekan%28
+449%У Вас есть такой же?%Shunga o'xshaganidan sizlarda bormi?%28
+450%У Вас есть такой же другого цвета?%Shuning boshqa xil ranglisi yo'qmi?%28
+451%У Вас есть такое же лучшего качества%Shuning sifatlirog'i yo'qmi?%28
+452%У Вас есть побольше?%Kattarog'i yo'qmi?%28
+453%У Вас есть подешевле?%Arzonrog'i yo'qmi?%28
+454%Я хотел бы взглянуть на более светлый (темный) тон%Rangi ochrog'ini (to'qrog'ini)   ko'rsam degandim%28
+455%Я беру это%Men buni olaman%28
+456%Я могу купить это по безналичному рассчету?%Buni naqd pulsiz olsam bo'ladi mi?%28
+457%Можно попросить подарочную упаковку?%Sovg'a o'ramini berasizmi?%28
+458%Я не могу себе позволить это купить%Bu menga qimmatlik qiladi%28
+459%Отошлите это,   пожалуйста,   в гостиницу%Iltimos, buni mehmonxonaga yuboring%28
+460%Не могли бы Вы отправить это сегодня?%Buni shu bugun yubora olmaysizmi?%28
+461%Могу я это забрать?%Buni olsam bo'ladimi?%28
+462%Сколько времени займет ремонт?%Ta'mirlash qancha vaqtni oladi?%28
+463%Вы даете гарантию на ремонт?%Ta'mirlashga kafolat berasizmi?%28
+464%Я зайду попозже%Men kechroq kiraman%28
+465%Я хотел бы примерить%Men buni kiyib ko'rmoqchiman%29
+466%Я хотел бы примерить оба%Men ikkalasini ham kiyib ko'rmoqchiman%29
+467%Где примерочная?%Bum qayerda kiyib ko'rsam bo'ladi?%29
+468%Можете снять с меня мерку?%Mendan o'lchov olasizmi?%29
+469%Вы думаете, этот материал долговечный?%Sizningcha, bu pishiq matomi?%29
+470%Мне нужен костюм на заказ%Men kastum buyurtma qilmoqchiman%29
+471%Я бы хотела юбку на заказ%Men yubka buyurtma qilmoqchiman%29
+472%Я бы хотела взглянуть на ночную рубашку%Tungi ko'ylaklarni ko'rsam bo'ladimi?%29
+473%Я хотел бы купить пижаму%Men pijama olmoqchiman%29
+474%У вас есть пиджак к этим брюкам?%Shu shimga mos keiadigan pidjak bormi?%29
+475%Когда можно будет прийти на примерку?%Kiyib ko'rgani qachon kelsam bo'ladi?%29
+476%Вы подгоните это по длине?%Buni kaltaroq qilib berasizmi?%29
+477%В этом месте слишком тесно%Mana bu yeri juda tor%29
+478%Когда вещи будут готовы?%Buyumlar qachon tayyor bo'ladi?%29
+479%Не могли бы Вы показать мне галстук?%Menga bo'yinbog' ko'rsata olasizmi?%30
+480%У Вас есть другие цвета?%Boshqa ranglaridan ham sizlarda bormi?%30
+481%Я бы хотела шарфик к этой блузке%Men shu bluzkaga mos sharf ko'mfoqchi edim%30
+482%Меня интересует коричневый пояс%Menga jigarrang kamar kerak%30
+483%Это натуральная кожа?%Bu tabiiy charmmi?%30
+484%Покажите мне, пожалуйста, кожаное портмоне%Iltirnos,  menga charm hamyonni ko'rsatsangiz%30
+485%Мне нужен багажный комплект%Menga bagaj jamlanmasi kerak%30
+486%Покажите мне сумку%Menga sumkani ko'rsating%30
+487%Мне нужны солнцезащитные очки%Menga quyoshdan saqtovchi ko'zoynak kerak%30
+488%Эти очки для меня слишком слабые%Bu ko'zoynak xira ko'rsatyapti%30
+489%Я бы хотел  примерить очки посильнее%Tiniqroq ko'rsatadigan ko'zoynakni taqib ko'rmoqchiman%30
+490%У Вас  есть хлопчатобумажные (шерстяные, нейлоновые) носки?%Ip   gazlama (jun,   neylon)   paypoqlar bormi?%30
+491%Мне нужны две пары носков%Menga ikki juft paypoq kerak%30
+492%Мне нужна пара легкой летней обуви%Menga bir juft yengil yozgi poyabzal kerak%30
+493%У Вас найдется пара спортивной обуви?%Sizda bir juft sport poyabzali topiladimi?%30
+494%Что Вы можете посоветовать при солнечном ожоге?%Quyoshdan kuygan teriga nimani tavsiya eta olasiz?%30
+495%Мне нужно какое-нибудь средство от раздражения кожи%Menga Teri ta'sirlanishining oldini oluvchi biron-bir vosita kerak%30
+496%Покажите мне другой, пожалуйста%Iltimos. menga boshqasini ko'rsating%30
+497%Из какого материала это сделано?%Bu qanaqa matodan tikilgan?%30
+498%Я хотел бы посмотреть видеокамеру%Men videokamerani ko'rmoqchiman%31
+499%Не могли бы вставить пленку в мой фотоаппарат?%Fotoapparatimga tasmani o'rnatib berolmaysizmi?%31
+500%Мне нужна цветная пленка%Menga rangli tasma kerak%31
+501%Мне нужно по три отпечатка с каждого кадра%Menga har bir  kadrdan uchtadan rasm kerak%31
+502%Не могли бы Вы увеличить эти фотографии?%Bu fotosuratlarni kattalashtirib berolmaysizmi?%31
+503%Я хочу купить компакт-диск в подарок%Men sovg'aga kompakt-disk xarid qilmoqchiman%31
+504%У Вас есть батарейки?%Sizda batareykalar bormi?%31
+505%Мне нужны две лампочки%Menga ikkita lampochka kerak%31
+506%Покажите, как этим пользоваться.%Bundan qanday foydalanishni ko'rsatib bering%31
+507%Когда они будут готовы?%Ular qachon tayyor bo'ladi?%31
+508%Думаете, это можно отремонтировать?%Buni tuzatsa bo'ladi, deb o'ylaysizmi?%31
+509%Вы можете сделать ремонт при мне?%Mening oldimda tuzatib bera olasizmi?%31
+510%Я бы хотел купить сувенир на память об этом городе%Men bu shaharni eslatib turuvchi biror xil suvenir xarid qilsam degandim%32
+511%У Вас есть фотографии с видами этой местности?%Sizda bu joy tasvirlangan fotosuratlar bormi?%32
+512%У Вас есть открытка с видом города?%Sizda shahar  manzaralari tasvirlangan otkritka bormi?%32
+513%Это хрусталь?%Bu billurmi?%32
+514%Я бы хотел букет красных роз%Men bir dasta qizil atirgul olsam degandim%32
+515%У Вас есть почтовые марки?%Sizda pochta markalari bormi?%32
+516%Сколько вещей можно вывести из страны?%Mamlakatdan qancha buyum olib chiqib ketish mumkin?%32
+517%Какая начинка у этих конфет?%Bu konfetning ichiga nima solingan?%32
+518%Две плитки шоколада%Ikki plitka shokolad bering%32
+519%Можно просто посмотреть?%Shunchaki ko'rsam bo'ladimi?%33
+520%У Вас  есть какая-нибудь интересная книжка?%Biror xil qiziqarli kitob bormi?%33
+521%Я хотел бы детектив%Men detektiv bo'lsa degandim%33
+522%Русскую газету, пожалуйста%Iltimos, ruscha gazeta bering%33
+523%Мне нужен блокнот для заметок%Menga qaydlar uchun bloknot kerak%33
+524%Мне нужна подробная карта города%Menga shaharning to'liq xaritasi kerak%33
+525%У Вас есть поздравительные открытки?%Sizda tabrik otkritkalari bormi?%33
+526%Где я могу заплатить?%Haqini qayerda to'lasam bo'ladi?%34
+527%Вы принимаете кредитные карточки?%Kredit kartochkalarini qabul qilasizmi?%34
+528%Можно заплатить персональным чеком%Shaxsiy chek bilan to'Iasa bo'ladimi?%34
+529%Вы принимаете иностранную валюту?%Chet el valutasini qabul qilasizmi?%34
+530%Это больше, чем я могу заплатить%Bunga pulim yetmaydi%34
+531%Цена неоправданно велика%Narxi juda qimmat%34
+532%Цена выше, чем я рассчитывал%Narxi mo'ljalimdagidan ham oshiqroq%34
+533%Можете убавить цену?%Narxini kelishtira olmaysizmi?%34
+534%Вы можете дать мне скидку?%Menga narxini tushirib berolmaysizmi?%34
+535%Можно купить это в рассрочку?%Pulini bo'lib-bo'lib to'lasam bo'ladimi?%34
+536%Здесь в счете нет ошибки?%Hisob-kitobda xato yo'qmi?%34
+537%Проверьте еще раз%Yana bir marta tekshirib ko'ring%34
+538%Вы неправильно дали мне сдачу%Qaytimini noto'g'ri berdingiz%34
+539%Дайте мне, пожалуйста, чек%Iitimos, menga chek bering%34
+540%Я уже заплатил%Men pulini to'ladim%34
+541%Можете послать это по этому адресу?%Buni mana bu manzilga yubora olmaysizmi?%34
+542%Я хотел бы получить это сегодня%Men buni shu bugun olmoqchiman%34
+543%Я хотел бы это вернуть%Men buni qaytarib bermoqchiman%34
+544%Вот мой чек%Mana mening chekim%34
+545%Это сломано%Bu buzuq ekan%34
+546%Я хотел бы поехать в Бухару%Men Buxoroga bormoqchi edim%35
+547%Я собираюсь поехать в Бухару%Men Buxoroga bormoqchiman%35
+548%Я улетаю в  Россию на следующей неделе%Kelasi hafta Rossiyaga uchib ketyapman%35
+549%Как долго Вы собираетесь пробыть в Ташкенте?%Toshkentda qancha vaqt bo'lmoqchisiz?%35
+550%Я хотел бы путешествовать туристическим классом%Turistik klassda sayohat qilmoqchiman%35
+551%Я предпочитаю путешествовать автобусом (поездом, самолетом)%Men avtobusda (poyezdda, samolyotda) sayohat qilishni ma'qul ko'raman%35
+552%Какие достопримечательности здесь есть?%Bu yerda qanday diqqatga sazovor joylar bor?%36
+553%Какие предлагаются экскурсии?%Bu yerda qanday sayohat turlari taklif qilinadi?%36
+554%Вы можете порекомендовать интересную экскурсию?%Siz qanday qiziqarii ekskursiyani tavsiya etgan bo'lardingiz?%36
+555%Не могли бы Вы рассказать,   какие здесь есть музеи?%Bu  yerda qanday muzeylar   borligini aytolmaysizmi?%36
+556%Где находится театр?%Teatr qayerda joylashgan?%36
+557%Где ближайшая станция метро?%Eng yaqin metro bekati qayerda?%36
+558%Где стоянка такси?%Taksi to'xtaydigan joy qayerda?%36
+559%Здесь есть поблизости туалет?%Yaqinroqda hojatxona bormi?%36
+560%Можно воспользоваться Вашим туалетом?%Sizning hojatxonangizdan foydalansam bo'ladimi?%36
+561%В котором часу мы вернемся?%Soat nechada qaytib kelamiz?%36
+562%Сколько стоит эта экскурсия?%Bu ekskursiya necha pul turadi?%36
+563%Во сколько начало?%Boshianishi soat nechada?%36
+564%Питание включено в стоимость экскурсии?%Ovqatlanish ham ekskursiya narxiga kiradimi?%36
+565%Экскурсия по городу предусмотрена?%Shahar bo'ylab ekskursiya nazarda tutilganmi?%36
+566%Это однодневная экскурсия?%Bu bir kunlik ekskursiyami?%36
+567%Дайте мне, пожалуйста, план города%Iltimos, menga shahar xaritasini bering%36
+568%Где я могу купить план города?%Shahar xaritasini (chizmasini) qayerdan olsam bo'ladi?%36
+569%У вас есть брошюра с описанием туров и экскурсий?%Sizda turlar  va sayohatlar  tavsiflangan risola bormi?%36
+570%Здесь есть театр?%Bu yerda teatr bormi?%36
+571%Когда и где мы можем встретиться?%Siz bilan qachon va qayerda uchrashishimiz mumkin?%36
+572%Где я могу купить билет?%Chiptani qayerdan sotib olsam bo'ladi?%36
+573%Сколько стоит входной билет?%Kirish chiptasi qancha turadi?%36
+574%Что интересного можно тут еще посмотреть?%Bu yerda yana qanday qiziqarli narsalarni ko'rish mumkin?%36
+575%Это очень далеко, чтобы идти пешком?%Piyoda borish uchun u yer juda olismi?%36
+576%У нас будет возможность сделать пару фотографий?%Ikki-uchta suratga tushishga imkoniyatimiz bo'ladimi?%36
+577%Сколько это займет времени?%Bu qancha vaqtni oladi?%36
+578%Что идет сейчас?%Hozir nima bo'lyapti?%36
+579%Кто-нибудь здесь говорит по-русски?%Bu yerda kirn ruscha gapiradi?%36
+580%Мне нужен гид,  говорящий по-русски%Menga ruscha gapiradigan yo'lboshlovchi kerak%36
+581%Извините, как пройти к ...?%Kechirasiz, ...ga qanday borsa bo'ladi?%37
+582%Скажите, пожалуйста, как пройти к гостинице?%Mehmonxonaga qanday borish mumkinligini aytib berolmaysizmi?%37
+583%Гостиница далеко отсюда?%Mehmonxona bu yerdan uzoqdami?%37
+584%Сколько это займет времени?%Bu qancha vaqtni oladi?%37
+585%Она на этой стороне?%U shu tomondami?%37
+586%Как мне пройти к почте?%Pochtaga qanday borsam bo'ladi?%37
+587%В какую сторону идти к центру?%Markazga qaysi tomondan yurish kerak?%37
+588%Покажите на плане,   где мы сейчас находимся%Hozir   qayerda turganimizni xaritadan ko'rsating%37
+589%Пожалуйста, нарисуйте здесь план%Iltimos, mana bu yerga chizmani chizib bering%37
+590%Где мы сейчас?%Biz hozir qayerdamiz?%37
+591%Как называется эта улица?%Bu ko'cha qanday nomlanadi?%37
+592%Как нужно ориентироваться?%Qanday mo'ljal olish mumkin?%37
+593%Мне идти прямо?%To'g'riga qarab yurishim kerakmi?%37
+594%По пути Вы увидите ресторан на другой стороне улицей%Yo'lingizda,  ko'chaning narigi tomonida restoranni ko'rasiz%37
+595%Это примерно десять минут ходьбы%Taxminan o'n daqiqa piyoda yurish kerak%37
+596%Это совсем близко%Bu juda yaqin%37
+597%Это прямо через улицу%U shundoq bitta ko'chadan keyin%37
+598%Это в конце коридора%Bu yo'lakning oxirida%37
+599%Это не очень далеко%Bu uncha uzoq emas%37
+600%Вы не можете его не заметить%Uni ko'rmasligingiz mumkin emas%37
+601%Подождите здесь минутку,  пожалуйста%Iltimos,  shu yerda bir  daqiqa  kutib turing%37
+602%Я выхожу на следующей остановке%Men keyingi bekatda tushaman%37
+603%Высадите меня здесь, пожалуйста%Iltimos, meni shu yerda tushirib keting%37
+604%Остановите здесь, пожалуйста%Iltimos, shu yerda to'xtating%37
+605%Я хотел бы поехать куда-нибудь отдохнуть (купаться)%Men biror yerga dam olgani (cho'milgani) bormoqchi edim%38
+606%Давайте сходим в какое-нибудь интересное место?%Keling, biror qiziqarli joyga boramiz?%38
+607%В какой кинотеатр пойдем?%Qaysi kinoteatrga boramiz?%38
+608%Хотите пойти со мной в оперу?%Men bilan birga operaga tushmaysizmi?%38
+609%Я куплю билеты%Men chipta sotib olaman%38
+610%Я зайду за Вами в семь часов%Men Sizni olib ketgani soat yettida kelaman%38
+611%Давайте сходим сегодня вечером в кино%Keling, bugun kechqurun kinoga tushamiz%38
+612%Ваши любимые фильмы?%Siz qaysi filmlarni yoqtirasiz?%38
+613%Когда начинается кино?%Kino qachon boshlanadi?%38
+614%Покажите,  где мое место,  пожалуйста%Iltimos, mening joyimni ko'rsatsangiz%38
+615%Когда заканчивается представление?%Tomosha qachon tugaydi?%38
+616%Когда начинается представление?%Tomosha qachon boshlanadi?%38
+617%Хотите пойти куда-нибудь потанцевать?%Biron joyga raqsga tushgani borishni istaysizmi?%38
+618%Разрешите пригласить Вас на танец%Ruxsat eting, Sizni raqsga taklif qilsam%38
+619%По телевизору будут интересные фильмы?%Teievizorda qiziqarli filmlar bo'ladimi?%38
+620%Сегодня вечером по телевизору будет что-нибудь интересное?%Bugun kechqurun teievizorda biror qiziqarli narsa bormi?%38
+621%Здесь можно фотографировать?%Bu yerda suratga olish mumkinmi?%39
+622%Можно использовать вспышку?%Vspishkadan foydalanish mumkinmi?%39
+623%Не могли бы Вы сфотографировать меня?%Meni suratga olib qo'yolmaysizmi?%39
+624%Сфотографируйтесь со мной,   пожалуйста%Iltimos. men bilan birga suratga tushing%39
+625%Где находится почта?%Pochta qayerdajoylashgan?%40
+626%Не могли бы Вы объяснить, как пройти к почте?%Pochtaga qanday borish  mumkinligini tushuntirib berolmaysizmi?%40
+627%Я хочу послать это письмо заказным%Men buyurtma xat yubormoqchiman%40
+628%Я хочу послать его экспресс-почтой%Bu xatni tezkor-pochta orqali yubormoqchiman%40
+629%Я хотел бы послать это письмо авиапочтой%Bu xatni aviapochta orqali yubormoqchiman%40
+630%Пожалуйста, пошлите его спецдоставкой%Iltimos,   xatni maxsus pochta orqali yuborsangiz%40
+631%Застрахуйте его, пожалуйста%Iltimos, uni sug'urta qiisangiz%40
+632%Это весит слишком много?%Bu haddan tashqari og'irmi?%40
+633%Сколько это стоит?%Bu necha pul turadi?%40
+634%Сколько будет стоить пересылка этих писем?%Bu xatlarni yuborish  necha pulga tushadi?%40
+635%Вы не знаете, сколько стоит письмо в Россию?%Rossiyaga xat yuborish nechapul turishini bilmaysizmi?%40
+636%Сколько стоит авиаписьмо в Россию?%Rossiyaga xatni aviapochta orqali yuborish necha pul turadi?%40
+637%Где я могу купить марки и открытки?%Marka va otkritkalarni qayerdan xarid qilishim (sotib olishim) mumkin?%40
+638%Я хотел бы отправить эту посылку в Термез%Men bu posilkani Termizga yubormoqchiman%40
+639%Взвесьте это письмо, пожалуйста%Iltimos, bu xatning og'irligini o'Ichang%40
+640%Отправьте,  пожалуйста, эту посылку как можно скорее%Iltimos,  bu posilkani mumkin qadar tezroq yuboring%40
+641%Я хотел бы отправить телеграмму%Men telegramma bermoqchi edim%41
+642%Можно попросить бланк телеграммы?%Telegramma biankasini berib yuborolmaysizmi?%41
+643%Когда телеграмма будет в Москве?%Telegramma Moskvaga qachon yetib boradi?%41
+644%Это очень долго. Вы  не  могли бы послать ее экспрессом?%Bu juda kech. Uni ekspress telegraf orqali yubora olmaysizmi?%41
+645%Сколько стоит одно слово?%Bitta so'z necha pul turadi?%41
+646%Сколько букв может быть в одном слове?%Bitta so'zda nechta harf bo'lishi mumkin?%41
+647%Местный звонок%Mahalliy qo'ng'iroq%42
+648%Международный звонок%Xalqaro qo'ng'iroq%42
+649%Я хотел бы сделать звонок в Москву за счет адресата%Men Moskvaga uning egasi hisobidan qo'ng'iroq qilmoqchiman%42
+650%Я хотел бы позвонить за границу%Men chet elga qo'ng'iroq qilmoqchi edim%42
+651%Сколько стоит трехминутный разговор с Германией?%Germaniya bilan uch daqiqali so'zlashuv necha pul turadi?%42
+652%Я хотел бы позвонить в Москву%Men  Moskvaga qo'ng'iroq qilmoqchi edim%42
+653%Где здесь поблизости телефон-автомат?%Bu yaqinroqda telefon-avtomat qaverda joylashgan?%42
+654%Линия занята%Tarmoq band%42
+655%Этого номера нет в справочнике%Ma'lumotnomada bu raqam yo' q%42
+656%Можно мне набирать напрямую?%Bevosita boglansam bo'ladimi?%42
+657%Извините, Вы ошиблись номером%Kechirasiz, boshqa yoqqa tushdingiz%42
+658%Его (её) сейчас нет%U hozir yo'q%42
+659%Она (он)   сейчас говорит по другому телефону%U hozirgi vaqtda boshqa telefon orqali so'zlashyapti%42
+660%Не кладите трубку, пожалуйста%Iltimos, go'shakni qo'ymang%42
+661%Не кладите пока трубку, пожалуйста%Iltimos, go'shakni qo'ymay taring%42
+662%Я перезвоню позже%Men keyinroq qo'ng'iroq qilaman%42
+663%Кто говорит?%Kim gapiryapti?%42
+664%Как это пишется?%Bu qanday yoziladi?%42
+665%Я ошибся номером%Raqam terishda adashibman%42
+666%Пожалуйста, попросите его мне позвонить%Iltimos, undan menga qo'ng'iroq qilishini so'rang%42
+667%Я слушаю%Eshitaman%42
+668%Вы можете ему кое-что передать?%Unga bir gapni aytib qo'ya olmaysizmi?%42
+669%Когда он вернется?%U qachon keladi?%42
+670%Спасибо за звонок%Qo'ng'iroq qilganingiz uchun rahmat%42
+671%До которого часа открыт банк?%Bank soat nechagacha ochiq bo'ladi?%43
+672%Я хотел бы открыть счет%Men hisob varaq ochmoqchiman%43
+673%Я хочу снять со счета ...%Men hisob varaqdan ... olmoqchiman%43
+674%Я хочу открыть сберегательный счет%Men omonat daftarchasi ochmoqchiman%43
+675%Я хочу положить на счет немного денег%Men omonat daftarchamga ozgina pul qo'ymoqchiman%43
+676%Вот мое удостоверение%Маnа, mening guvohnomam%43
+677%Как быстро можно это сделать?%Buni tezroq qilish mumkinmi?%43
+678%Где я могу обменять деньги?%Men pulimni qayerda ayirboshlashim mumkin?%44
+679%Какой обменный курс доллара?%DoIIarni ayirboshlash kursi qanaqa?%44
+680%Разменяйте мне, пожалуйста, пятьсот рублей.%Iltimos, menga besh yuz so'mni maydalab be ring%44
+681%Я хотел бы обналичить дорожный чек%Men yo'l chekimni naqdiashtirmoqchi edim%44
+682%Не могли бы Вы разменять 100 долларовую купюру?%100 dollarni maydalab bera olmaysizmi?%44
+683%Разменяйте, пожалуйста, эту купюру%Iltimos, mana bu pulni maydalab bering%44
+684%Не могли бы Вы часть дать мелочью?%Bir qismini mayda pul bilan bera olmaysizmi?%44
+685%Мне нужна мелочь%Menga mayda pul kerak%44
+686%Как мне добраться отсюда туда?%Bu yerdan u yerga qanday borsam bo'ladi? "%45
+687%Какие поезда идут в Бухару?%Buxoroga qaysi poyezdlar boradi?%45
+688%Сколько стоит билет до Москвы?%Moskvagacha chipta necha pul turadi?%45
+689%Мне нужен билет до Москвы%Menga Moskvagacha boradigan poyezdga chipta kerak%45
+690%Дайте два билета туристического класса%Turistik klassga ikkita chipta bering%45
+691%Я хотел бы забронировать место на этом поезде%Men shu poyezdda bitta joyni bronlashtirmoqchi edim%45
+692%Мне нужно делать пересадку?%Yo'lda boshqa poyezdga o'tirishim kerakmi?%45
+693%Где мне делать пересадку?%Boshqa poyezdga qayerda o'tiriladi?%45
+694%С какой платформы отправляется поезд?%Poyezd qaysi platformadan jo'naydi?%45
+695%Я опоздал на поезд. Когда идет следующий?%Men poyezdga kech qoldim. Navbatdagi poyezd qachon jo'naydi?%45
+696%Это прямой поезд на Новосибирск?%Bu poyezd to'g'ri Novosibirskka boradimi?%45
+697%Как долго будет задержка?%Yo'lda qancha vaqt to'xtab turamiz?%45
+698%Это поезд скорый или пригородный?%Bu tezyurar poyezdmi yoki shahar tashqarisiga qatnaydigan poyezdmi?%45
+699%Здесь есть вагон-ресторан?%Bu yerda vagon-restoran bormi?%45
+700%Вагон-ресторан в начале или в хвосте поезда?%Vagon-restoran poyezdning boshidami yoki oxiridami?%45
+701%Это место занято?%Bu joy band emasmi?%45
+702%Я думаю, это место мое%Menimcha, bu mening joyim%45
+703%Я предпочитаю место у окна%Men deraza yonidagi joyni yoqtiraman%45
+704%Здесь очень жарко (холодно)%Bu yer juda issiq (sovuq)%45
+705%Можно открыть окно?%Derazani ochish mumkinmi?%45
+706%Где мы сейчас проезжаем?%Biz hozir qayerdan o'tyapmiz?%45
+707%Сколько времени поезд здесь стоит?%Poyezd bu yerda qancha vaqt turadi?%45
+708%Где следующая остановка?%Navbatdagi bekat qayerda?%45
+709%На какой остановке мне выходить?%Qaysi bekatda tushishim kerak?%45
+710%Сколько остановок отсюда?%Bu yerdan qancha bekat narida?%45
+711%До скольки работает метро?%Metro soat nechagacha ishlaydi?%45
+712%Билет туда и обратно, пожалуйста%lltimos,  borish va qaytishga chipta bering%46
+713%Этот автобус идет туда?%Bu avtobus o'sha yerga boradimi?%46
+714%Когда идет следующий автобус в аэропорт?%Aeroportga navbatdagi avtobus qachon jo'naydi?%46
+715%Это расписание еще действует?%Bu jadval hali amaldami?%46
+716%Сколько стоит билет туда и обратно?%Borish  va qaytish  chiptasi necha pul turadi?%46
+717%Сколько времени действителен обратный билет?%Qaytish chiptasi qancha vaqt amal qiladi?%46
+718%Сколько стоит билет туда?%Borish chiptasi necha pul turadi?%46
+719%Как долго ехать до центра?%Markazga hali uzoqmi?%46
+720%Я хочу сдать билет%Men chiptamni topshirmoqchiman%46
+721%Вызовите для меня такси%Menga taksi chaqirib bering%46
+722%Рде мы можем взять такси?%Qayerda taksi to'xtatishimiz mumkin?%46
+723%Отвезите меня по этому адресу, пожалуйста%lltimos,  meni mana shu maiizilga eltib qo'ying%46
+724%Я могу взять напрокат машину?%Ijaraga mashina olsam bo'ladimi?%47
+725%Какие документы мне нужно иметь с собой?%Qanday hujjatlarni taqdim etishim kerak?%47
+726%Вот мои международные водительские права%Mana, mening xalqaro haydovchilik guvohnomam%47
+727%Я хотел бы взять эту машину напрокат на два дня%Men bu mashinani ikki kunga ijaraga olmoqchi edim%47
+728%Сколько это стоит в неделю (в день)?%Bu haftasiga (kuniga) necha pul turadi?%47
+729%Мне нужно оставлять залог?%Garov qoldtrishim kerakmi?%47
+730%Куда я могу позвонить,   если что-нибудь случится?%Вiron narsa bo'lsa,  qayerga qo'ng'iroq qilishim mumkin?%47
+731%Покажите мне расценки, пожалуйста%Iltimos, menga narxlarni ko'rsating%47
+732%Сколько нужно платить за дополнительный пробег?%Qo'shimcha qatnov  uchun qancha to'lash kerak?%47
+733%Я могу оставить машину в месте назначения?%Mashinani manzilda qoldirishim mumkinmi?%47
+734%Где я могу вернуть ее?%Uni qayerda qaytarishim mumkin?%47
+735%Пожалуйста, пошлите машину к моей гостинице завтра утром%Iltimos, mashinani men yashaydigan mehmonxonaga ertaga ertalab yuboring%47
+736%Я хочу подать заявление на возмещение ущерба по автомобильной страховке%Men avtomobil sug'urtasi bo'yicha zararni qoplash haqida ariza bermoqchiman%47
+737%Заполните это, пожалуйста%Iltimos. mana buni to'ldiring%47
+738%Где можно припарковаться (остановиться)?%Mashinani qayerga qo'yish (qayerda to'xtash)  mumkin?%48
+739%В этом районе есть гостиница?%Bu joyda mehmonxona bormi?%48
+740%Где самый короткий путь на пляж?%Plajga boradigan eng qisqa yo'l qaysi?%48
+741%Дорога до озера хорошая?%Ko'lga olib boradigan yo'l yaxshimi?%48
+742%Где ближайший гараж?%Eng yaqin garaj qayerda?%48
+743%Сколько километров до ближайшей заправочной станции?%Eng yaqin yoqilg'i quyish shoxobchasiga qancha yo'l yurish kerak?%48
+744%Мне нужно сорок литров бензина%Menga qirq litr benzin kerak%49
+745%Я обычно использую бензин ...%Men odatda ...benzinni ishlataman%49
+746%Можете проверить?%Теkshirib berasizmi?%49
+747%у вас есть антифриз?%Sizda antifriz bormi?%49
+748%Проверьте давление в шинах%Shinalardagi bosimni tekshirib bering%49
+749%Долейте тормозной жидкости,  пожалуйста%Iltimos, tormoz suyuqligi quyib bering%49
+750%Добавьте, пожалуйста, жидкость в радиатор%Iltimos, radiatorga suyuqlikqo'shing%49
+751%Помойте, пожалуйста, машину%Iltimos, mashinani yuvib bering%49
+752%Двигатель не заводится%Dvigatel ishlamayapti%50
+753%Двигатель перегревается%Dvigatel qizib ketyapti%50
+754%Он очень шумит%U qattiq shovqin chiqaryapti%50
+755%Что-то шумит%Qandaydir shovqin eshitilyapti%50
+756%Он стучит%U taqillayapti%50
+757%Что-то не в порядке с  давлением масла%Moy bosimiga nimadir bo'lgan%50
+758%Сигнал не работает%Signal ishlamayapti%50
+759%Подзарядите, пожалуйста, аккумулятор%Iltimos, akkumulatorni zaryadlab bering%50
+760%У вас есть запчасти?%Sizda ehtiyot qismlar bormi?%50
+761%У нас кончился бензин.%Bizda benzin tugadi%50
+762%Машина сломалась. Пришлите кого-нибудь за ней%Mashina buzilib qoldi. Biror kishini olib ketgani yuboring%50
+763%Вы можете починить машину?%Mashinani tuzatib bera olasizmi?%50
+764%Сколько времени займет ремонт машины?%Mashinani'tuzatishga qancha vaqt ketadi?%50
+765%Сколько примерно будет стоить ремонт?%Mashinani tuzatish taxminan nechapulga tushadi?%50
+766%Ремонт покрывается моей страховкой?%Mashinani tuzatish xarajatlari sug'urtam bilan qoplanadimi?%50
+767%Позвоните мне,  когда машина будет готова%Mashina tayyor bo'lgach,   menga qo'ng'iroq qiling%50
+768%Это была моя вина%Bu mening aybim edi%51
+769%Мне кажется, это Ваша вина%Menimcha, bu Sizning xatoingiz%51
+770%Не похоже,  чтобы ущерб был  большой%Katta ziyon yetganga o'xshamaydi%51
+771%Давайте решим вопрос между нами%Kelinglar,   ushbu masalani o'zaro hal etamiz%51
+772%Пусть кто-нибудь вызовет милицию%Kimdir militsiyani chaqirsin%51
+773%Я иностранец. Вот мои водительские права%Men muhojirman.  Mana,  mening haydovchilik guvohnomam%51
+774%Назовите  Вашу фамилию и адрес, пожалуйста%Iltimos,   familiyangiz va manzilingizni ayting%51
+775%Можно попросить копию протокола происшествия?%Hodisa bayonnomasining nusxasini olsam bo'ladimi?%51
+776%Въезд запрещен%Kirish taqiqlangan%52
+777%Движение запрещено%Harakat taqiqlangan%52
+778%Обгон запрещен%Quvib o'tish taqiqlangan%52
+779%Въезд запрещен — одностороннее движение%Kirish  taqiqlangan — bir  tomonlama harakat%52
+780%Стоянка запрещена%To'xtash taqiqlangan%52
+781%Въезд бесплатный%Kirish bepul%52
+782%Опасный поворот%Xavfli burilish%52
+783%Дорожные работы%Yo'l ishlari%52
+784%Сужение дороги%Yo'l torayishi%52
+785%Я чувствую себя плохо%O'zimni yomon his qilyapman%53
+786%У меня болит спина%Mening orqam og'riyapti%53
+787%Меня знобит%Eti'm uvushib ketyapti%53
+788%У меня кружится голова%Boshim aylanyapti%53
+789%У меня сильное головокружение%Boshim qattiq aylanyapti%53
+790%Я болен%Men betobman%53
+791%У меня болит голова%Boshim og'riyapti%53
+792%у меня аллергия на пенициллин%Penitsillinga allergiyam bor%53
+793%У меня высокое (низкое) давление%Qon bosimim baland (past)%53
+794%У меня болит здесь%Mening mana bu yerim og'riyapti%53
+795%У меня температура%Mening isitmam bor%53
+796%Я простыл (у меня насморк)%Men shamollab qoldim (men tumovman)%53
+797%У меня сильно болит зуб%Tishim qattiq og'riyapti%53
+798%Что-то попало в глаз%Ko'zimga nimadir kirdi%53
+799%Меня тошнит%Ko'nglim ayniyapti%53
+800%У меня проблемы с сердцем%Yuragim og'riyapti%53
+801%Я растянул связки на ноге%Oyoq pay la rim cho'zildi%53
+802%У меня болит горло%Tomog'im og'riyapti%53
+803%Я страдаю от бессонницы%Uyqusizlikdan qiynalyapman%53
+804%У меня заложен нос%Burnim bitib qoldi%53
+805%Я чувствую себя немного лучше%O'zimni biroz yaxshiroq his qilyapman%53
+806%У меня насморк%Men tumovman%53
+807%Я хотел бы попасть на прием завтра в…%Men ertaga soat ...da qabulingizga kirmoqchiman%54
+808%Вызовите врача, пожалуйста%lltimos, vrachni chaqiring%54
+809%Вызовите скорую помощь%Tez yordamni chaqiring%54
+810%Отвезите меня в больницу,  пожалуйста%Iltimos, meni kasaixonaga eltib qo'ying%54
+811%Это срочно%Bu nihoyatda shoshilinch%54
+812%Я должен остаться в больнице?%Men kasalxonada qolishim kerakmi?%54
+813%Думаете это надолго?%Sizningcha, bu uzoq davom etadimi?%54
+814%Как это случилось?%Bu qanday yuz berdi?%54
+815%Я споткнулся на лестнице%Men zinada qoqilib ketdim%54
+816%Вы считаете, что это серьезно?%Sizningcha. bu jiddiymi?%54
+817%Это заразно?%Bu yuqumlimi?%54
+818%Можете дать мне что-нибудь болеутоляющее?%Og'riqni qoldiradigan biror   dori bera olasizmi?%54
+819%Мне нужна операция?%Meni operatsiya qiiish kerakmi?%54
+820%У меня первая группа крови,   резус положительный%Qon guruhim birinchi. musbat rezus%54
+821%Какая у меня температура?%Haroratim qanday?%54
+822%Сколько мне нужно отдыхать?%Qancha vaqt dam olishim kerak?%54
+823%Долго я буду выздоравливать?%Uzoq vaqt davolanamanmi?%54
+824%Сколько времени займет лечение?%Davolash qancha vaqtga cho'ziladi?%54
+825%Мне можно продолжать путешествие?%Sayohatni davom ettirsam bo'ladimi?%54
+826%Сообщите моей семье, пожалуйста%Iltimos, bu haqda oilamga xabar bering%54
+827%Сколько раз в день мне принимать это лекарство?%Bu dorini bir  kunda necha mahal ichishim kerak?%54
+828%Можно попросить что-нибудь от кашля?%Yo'talga qarshi biron-bir dori bormi?%54
+829%Я хотел бы запломбировать зуб%Men  tishimga plomba qo'ydirmoqchi edim%54
+830%Нужно удалять?%Olib tashlash kerakmi?%54
+831%Тут есть поблизости стадион?%Yaqin atrofda stadion bormi?%55
+832%Мы можем расположиться здесь?%Biz bu yerga joylashishimiz mumkinmi?%55
+833%Где можно набрать воды?%Qayerdan suv olish mum kin?%55
+834%Я хотел бы половить рыбу%Men baliq ovlamoqchi edim%55
+835%Можно здесь ловить рыбу?%Bu yerda baliq ovlash mumkinmi?%55
+836%Могу я здесь покататься на водных лыжах?%Bu verdasuv   chang'isida uchish  mumkinmi?%55
+837%Я бы хотел постричься%Men soch oldirmoqchiman%56
+838%Стригите покороче, пожалуйста%Iltimos, kaltaroq qilib kesing%56
+839%Только подровняйте, пожалуйста%Iltimos, faqat tekislab qo'ying%56
+840%Не слишком коротко%Kalta qilib yubormang%56
+841%Я хотел бы побриться%Men soqol oldirmoqchiman%56
+842%Постригите и побрейте, пожалуйста%Iltimos, soch-soqolimni olib qo'ying%56
+843%Я бы хотела помыть голову%Men boshimni yuvdirmoqchiman%56
+844%Я бы хотела покрасить волосы%Men sochimni bo'yatmoqchi edim%56
+845%Сделайте мне пробор на левой (правой) стороне%Chap (o'ng) tarafdan farq oching%56
+846%Зачешите мне волосы назад%Sochimni orqaga tarang%56
+847%Я хотела бы сделать маникюр%Men manikur qildirmoqchi edim%56
+848%Здесь можно подождать где-нибудь?%Bu yerdagi biron joyda kutib turish mum-kin mi?%56
+849%Это срочно!%Bu shoshilinch!%57
+850%Немедленно вызовите милицию%Darhol militsiyani chaqiririg%57
+851%Пожалуйста,   заполните протокол  о краже%Iltimos,  o'g'irlik haqida baonnoma to'ldiring%57
+852%Я потерял паспорт%Men pasportimni yo'qotib qo'ydim%57
+853%Мой паспорт пропал%Pasportim yo'qoldi%57
+854%У меня украли бумажник%Hamyonimni o'g'irlashdi%57
+855%У меня украли бумажник в метро%Metroda hamyonimni o'g'irlashdi%57
+856%Кому я должен сообщить?%Kimga xabar berishim kerak?%57

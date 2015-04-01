@@ -24,21 +24,14 @@ import ru.egslava.tatar_dictionary.R;
 @EActivity(R.layout.activity_main)
 public class MainActivity extends ActionBarActivity {
 
-    @ViewById
-    PagerSlidingTabStrip    tabs;
+    @ViewById   PagerSlidingTabStrip    tabs;
+    @ViewById   FrameLayout ad;
+    @ViewById   AdView  adView;
+    @ViewById   ViewPager               pager;
 
-    @ViewById
-    FrameLayout ad;
-
-    @ViewById
-    AdView  adView;
-
-    @ViewById
-    ViewPager               pager;
-
-    DBHelper                db;
     private ProgressDialog progressDialog;
 
+    private DBHelper                db;
     public DBHelper db(){
         if (db == null){
             db = new DBHelper(this);
@@ -46,14 +39,9 @@ public class MainActivity extends ActionBarActivity {
         return db;
     }
 
-    @StringArrayRes
-    String[] dicts;
+    @StringArrayRes     String[] dicts;
 
-    @StringRes
-    String  please_wait;
-
-    @StringRes
-    String first_time_load;
+    @StringRes          String  please_wait, first_time_load;
 
     @AfterViews
     void init(){

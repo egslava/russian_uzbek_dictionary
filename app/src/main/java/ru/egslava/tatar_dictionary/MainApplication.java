@@ -22,8 +22,7 @@ public class MainApplication extends Application {
 
     Tracker tracker;
 
-    @AfterInject
-    void init(){
+    @AfterInject void init(){
         getTracker();
 //        tracker.send(new HitBuilders.ScreenViewBuilder().build());
 //        tracker.send(new HitBuilders.AppViewBuilder().build());

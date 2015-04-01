@@ -18,17 +18,31 @@ import ru.egslava.tatar_dictionary.R;
  */
 public class DBHelper extends SQLiteOpenHelper {
 
-    public static String createTable(String tableName) {
+    public static final String PHRASES = "phrases", THEMES = "themes";
+
+    public static String createTablePhrases(String languageName) {
         return String.format(
-                "CREATE TABLE %s ( `_id` INTEGER, `word` CHAR(255), `definition` TEXT, PRIMARY KEY(_id) );",
-                tableName);
+                "CREATE TABLE %s ( `_id` INTEGER, `russian` TEXT, `foreign` TEXT, `id_theme` INTEGER, PRIMARY KEY(_id) );",
+                languageName + PHRASES);
     }
 
-    public static String insertWord(String tableName) {
-        return String.format( "INSERT INTO %s (word,definition) VALUES (?, ?)",
-                tableName);
+    public static String createTableThemes(String languageName) {
+        return String.format(
+                "CREATE TABLE %s ( `_id` INTEGER, `russian` TEXT, `foreign` TEXT, PRIMARY KEY(_id) );",
+                languageName + THEMES);
     }
 
+    public static String insertPhrase(String languageName) {
+        return String.format(
+                "INSERT INTO %s (_id, russian, foreign, id_theme) VALUES (?, ?, ?, ?);",
+                languageName + PHRASES);
+    }
+
+    public static String insertTheme( String languageName ) {
+        return String.format(
+                "INSERT INTO %s (_id, russian, foreign) VALUES(?, ?, ?);",
+                languageName + THEMES);
+    }
 
     private final Context context;
 
@@ -39,23 +53,26 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        fillWords(db, "rus_tatar", R.raw.rus_tatar);
-        fillWords(db, "tatar_rus", R.raw.tatar_rus);
-
+        fill(db, "uz", R.raw.uz_phrases, R.raw.uz_themes);
     }
 
-    private void fillWords(SQLiteDatabase db, String tableName, int wordFileResId) {
-        try {
-            db.execSQL( createTable(tableName));
+    private void fill(SQLiteDatabase db, String languageName, int phrasesFileId, int themesFileId){
+        fillPhrases (db, languageName, phrasesFileId);
+        fillThemes  (db, languageName, themesFileId);
+    }
 
-            InputStream inputStream = context.getResources().openRawResource( wordFileResId );
+    private void fillPhrases(SQLiteDatabase db, String languageName, int phrasesFileResId) {
+        try {
+            db.execSQL( createTablePhrases(languageName));
+
+            InputStream inputStream = context.getResources().openRawResource( phrasesFileResId );
             InputStreamReader reader = new InputStreamReader(inputStream);
             BufferedReader buf = new BufferedReader(reader);
 
             String s;
             while( buf.ready() ){
                 s = buf.readLine();
-                db.execSQL(insertWord( tableName), StringUtils.split(s, '%'));
+                db.execSQL(insertPhrase(languageName), StringUtils.split(s, '%'));
             }
 
         } catch (IOException e) {
@@ -63,8 +80,24 @@ public class DBHelper extends SQLiteOpenHelper {
         }
     }
 
-    @Override
-    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+    private void fillThemes(SQLiteDatabase db, String languageName, int themesFileResId) {
+        try {
+            db.execSQL( createTableThemes(languageName));
 
+            InputStream inputStream = context.getResources().openRawResource( themesFileResId );
+            InputStreamReader reader = new InputStreamReader(inputStream);
+            BufferedReader buf = new BufferedReader(reader);
+
+            String s;
+            while( buf.ready() ){
+                s = buf.readLine();
+                db.execSQL(insertTheme( languageName ), StringUtils.split(s, '%'));
+            }
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
+
+    @Override public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {}
 }
