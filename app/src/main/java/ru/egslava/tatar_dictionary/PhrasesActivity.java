@@ -13,44 +13,31 @@ import com.google.android.gms.ads.AdView;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Background;
+import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.UiThread;
 import org.androidannotations.annotations.ViewById;
 import org.androidannotations.annotations.res.StringArrayRes;
 import org.androidannotations.annotations.res.StringRes;
 
-import ru.egslava.tatar_dictionary.R;
+import ru.egslava.tatar_dictionary.db.DB;
+import ru.egslava.tatar_dictionary.db.DBHelper;
 
 @EActivity(R.layout.activity_main)
-public class MainActivity extends ActionBarActivity {
+public class PhrasesActivity extends ActionBarActivity {
 
     @ViewById   PagerSlidingTabStrip    tabs;
-    @ViewById   FrameLayout ad;
-    @ViewById   AdView  adView;
+    @ViewById   FrameLayout             ad;
+    @ViewById   AdView                  adView;
     @ViewById   ViewPager               pager;
-
-    private ProgressDialog progressDialog;
-
-    private DBHelper                db;
-    public DBHelper db(){
-        if (db == null){
-            db = new DBHelper(this);
-        }
-        return db;
-    }
 
     @StringArrayRes     String[] dicts;
 
-    @StringRes          String  please_wait, first_time_load;
+    @Bean       DB                      db;
 
-    @AfterViews
-    void init(){
-        progressDialog = ProgressDialog.show(this, please_wait, first_time_load, true, false);
+    @AfterViews void init(){
         adView.loadAd(new AdRequest.Builder().build());
-        loadDb();
     }
-
-    @Background void loadDb(){ db().getReadableDatabase(); initPager();}
 
     @UiThread(propagation = UiThread.Propagation.REUSE)
     void initPager(){
@@ -59,10 +46,10 @@ public class MainActivity extends ActionBarActivity {
             @Override public Fragment getItem(int i) {
                 switch(i){
                     case 0: return DictionaryFragment_.builder()
-                            .tableName("rus_tatar")
+                            .languageName("uz")
                             .build();
                     case 1: return DictionaryFragment_.builder()
-                            .tableName("tatar_rus")
+                            .languageName("uz")
                             .letters(new String[]{"ә", "җ", "ң", "ө", "ү", "h"})
                             .build();
                 }
@@ -75,7 +62,5 @@ public class MainActivity extends ActionBarActivity {
             }
         });
         tabs.setViewPager(pager);
-
-        progressDialog.cancel();
     }
 }

@@ -34,8 +34,6 @@ import org.androidannotations.annotations.SystemService;
 import org.androidannotations.annotations.ViewById;
 import org.apache.commons.lang3.StringUtils;
 
-import ru.egslava.tatar_dictionary.R;
-
 
 @EFragment(R.layout.fragment_word_list)
 @OptionsMenu(R.menu.main)
@@ -44,25 +42,17 @@ public class DictionaryFragment extends Fragment implements LoaderManager.Loader
 
     public static final int URL_LOADER = 0;
 
-    @OptionsMenuItem(R.id.search)
-    MenuItem searchItem;
+    @OptionsMenuItem(R.id.search)   MenuItem searchItem;
+    @FragmentArg    String languageName;
+    @FragmentArg    String[] letters;
+    @ViewById       ListView list;
 
-    @FragmentArg
-    String tableName;
-
-    @FragmentArg
-    String[] letters;
-
-    @ViewById
-    ListView                        list;
-
-    @SystemService
-    LayoutInflater  inflater;
+    @SystemService  LayoutInflater  inflater;
 
     private SimpleCursorAdapter     adapter;
     private Cursor cursor;
 
-    MainActivity ac;
+    PhrasesActivity ac;
     private SQLiteDatabase db;
     private SearchView actionSearch;
     private Uri uri;
@@ -83,12 +73,11 @@ public class DictionaryFragment extends Fragment implements LoaderManager.Loader
 
     private EditText actionSearchEditText;
 
-    @AfterViews
-    void init(){
-        uri = Uri.parse("content://" + tableName);
+    @AfterViews void init(){
+        uri = Uri.parse("content://" + languageName);
 
-        ac = (MainActivity)getActivity();
-        db = ac.db().getReadableDatabase();
+        ac = (PhrasesActivity)getActivity();
+        db = ac.db.getReadableDatabase();
 
         adapter = new SimpleCursorAdapter(getActivity(),
                 R.layout.item_word, null,
@@ -125,8 +114,7 @@ public class DictionaryFragment extends Fragment implements LoaderManager.Loader
         actionSearchEditText = (EditText) actionSearch.findViewById(android.support.v7.appcompat.R.id.search_src_text);
     }
 
-    @OptionsMenuItem
-    MenuItem search;
+    @OptionsMenuItem    MenuItem search;
 
     @Override
     public Loader<Cursor> onCreateLoader(int loaderId, Bundle bundle) {
@@ -177,7 +165,7 @@ public class DictionaryFragment extends Fragment implements LoaderManager.Loader
         String definition = item.getString(item.getColumnIndex("definition"));
         ((MainApplication)getActivity().getApplication()).getTracker().send(new HitBuilders.EventBuilder()
                 .setCategory("translation")
-                .setAction(tableName)
+                .setAction(languageName)
                 .setLabel(word).build());
         new AlertDialog.Builder(getActivity())
                 .setTitle(word)

@@ -10,18 +10,18 @@ import android.support.v4.content.CursorLoader;
  */
 public class DictionaryCursorLoader extends CursorLoader {
 
-    private MainActivity ac;
+    private PhrasesActivity ac;
 
     public DictionaryCursorLoader(Context context, Uri uri, String[] projection, String selection, String[] selectionArgs, String sortOrder) {
         super(context, uri, projection, selection, selectionArgs, sortOrder);
-        ac = (MainActivity) context;    // dunno why it saves application context instead of context
+        ac = (PhrasesActivity) context;    // dunno why it saves application context instead of context
     }
 
     @Override
     public Cursor loadInBackground() {
 //        super.loadInBackground();
         String authority = getUri().getAuthority();
-        return ac.db().getReadableDatabase().query(authority, getProjection(), getSelection(), getSelectionArgs(), null, null, getSortOrder());
+        return ac.db.getReadableDatabase().query(authority, getProjection(), getSelection(), getSelectionArgs(), null, null, getSortOrder());
 //        return super.loadInBackground();
     }
 }

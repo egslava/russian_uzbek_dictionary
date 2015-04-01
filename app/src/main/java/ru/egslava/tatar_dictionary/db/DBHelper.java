@@ -1,4 +1,4 @@
-package ru.egslava.tatar_dictionary;
+package ru.egslava.tatar_dictionary.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -34,13 +34,13 @@ public class DBHelper extends SQLiteOpenHelper {
 
     public static String insertPhrase(String languageName) {
         return String.format(
-                "INSERT INTO %s (_id, russian, foreign, id_theme) VALUES (?, ?, ?, ?);",
+                "INSERT INTO %s (`_id`, `russian`, `foreign`, `id_theme`) VALUES (?, ?, ?, ?)",
                 languageName + PHRASES);
     }
 
     public static String insertTheme( String languageName ) {
         return String.format(
-                "INSERT INTO %s (_id, russian, foreign) VALUES(?, ?, ?);",
+                "INSERT INTO %s (`_id`, `russian`, `foreign`) VALUES(?, ?, ?)",
                 languageName + THEMES);
     }
 
@@ -91,7 +91,7 @@ public class DBHelper extends SQLiteOpenHelper {
             String s;
             while( buf.ready() ){
                 s = buf.readLine();
-                db.execSQL(insertTheme( languageName ), StringUtils.split(s, '%'));
+                db.execSQL(insertTheme(languageName), StringUtils.split(s, '%'));
             }
 
         } catch (IOException e) {
