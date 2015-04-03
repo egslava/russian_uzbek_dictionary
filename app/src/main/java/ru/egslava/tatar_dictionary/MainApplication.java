@@ -27,7 +27,7 @@ public class MainApplication extends Application {
 //        tracker.send(new HitBuilders.ScreenViewBuilder().build());
 //        tracker.send(new HitBuilders.AppViewBuilder().build());
     }
-    synchronized Tracker getTracker() {
+    public synchronized Tracker getTracker() {
         if (tracker == null) {
             GoogleAnalytics analytics = GoogleAnalytics.getInstance(this);
             tracker = analytics.newTracker(R.xml.app_tracker);

@@ -1,4 +1,4 @@
-package ru.egslava.tatar_dictionary;
+package ru.egslava.tatar_dictionary.phrases;
 
 import android.content.Context;
 import android.database.Cursor;

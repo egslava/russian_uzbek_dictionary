@@ -19,7 +19,7 @@ import org.androidannotations.annotations.res.StringRes;
 public class DB {
 
     @Background void loadDb(){
-        db().getReadableDatabase(); // slow op
+        db().getWritableDatabase(); // slow op
         cancelProgressDialog();
         dbLoaded = true;
     }

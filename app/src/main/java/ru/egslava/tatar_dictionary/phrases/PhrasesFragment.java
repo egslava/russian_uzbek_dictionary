@@ -1,4 +1,4 @@
-package ru.egslava.tatar_dictionary;
+package ru.egslava.tatar_dictionary.phrases;
 
 import android.app.AlertDialog;
 import android.database.Cursor;
@@ -34,16 +34,21 @@ import org.androidannotations.annotations.SystemService;
 import org.androidannotations.annotations.ViewById;
 import org.apache.commons.lang3.StringUtils;
 
+import ru.egslava.tatar_dictionary.MainApplication;
+import ru.egslava.tatar_dictionary.R;
+import ru.egslava.tatar_dictionary.db.DBHelper;
+
 
 @EFragment(R.layout.fragment_word_list)
 @OptionsMenu(R.menu.main)
-public class DictionaryFragment extends Fragment implements LoaderManager.LoaderCallbacks<Cursor>,
+public class PhrasesFragment extends Fragment implements LoaderManager.LoaderCallbacks<Cursor>,
         FilterQueryProvider, SearchView.OnQueryTextListener, AdapterView.OnItemClickListener {
 
     public static final int URL_LOADER = 0;
 
     @OptionsMenuItem(R.id.search)   MenuItem searchItem;
     @FragmentArg    String languageName;
+    @FragmentArg    int     themeId;
     @FragmentArg    String[] letters;
     @ViewById       ListView list;
 
@@ -74,14 +79,14 @@ public class DictionaryFragment extends Fragment implements LoaderManager.Loader
     private EditText actionSearchEditText;
 
     @AfterViews void init(){
-        uri = Uri.parse("content://" + languageName);
+        uri = Uri.parse("content://" + languageName + DBHelper.PHRASES);
 
         ac = (PhrasesActivity)getActivity();
         db = ac.db.getReadableDatabase();
 
         adapter = new SimpleCursorAdapter(getActivity(),
                 R.layout.item_word, null,
-                new String[]{"word", "definition"},
+                new String[]{"russian", "foreign"},
                 new int[]{android.R.id.text1, android.R.id.text2}, 0);
 
         list.setTextFilterEnabled(true);
@@ -122,9 +127,9 @@ public class DictionaryFragment extends Fragment implements LoaderManager.Loader
             case URL_LOADER:
 
                 if (bundle != null && StringUtils.isNotBlank(bundle.getString("filter"))){
-                    return new DictionaryCursorLoader(ac, uri, null, "word LIKE(?)", new String[]{bundle.getString("filter") + "%"}, null);
+                    return new DictionaryCursorLoader(ac, uri, null, "russian LIKE(?)", new String[]{bundle.getString("filter") + "%"}, null);
                 }else{
-                    return new DictionaryCursorLoader(ac, uri, null, null, null, null);
+                    return new DictionaryCursorLoader(ac, uri, null, "id_theme = ?", new String[]{themeId + ""}, null);
                 }
             default:
                 return null;
@@ -161,8 +166,8 @@ public class DictionaryFragment extends Fragment implements LoaderManager.Loader
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         Cursor item = (Cursor)adapter.getItem(position);
-        String word = item.getString(item.getColumnIndex("word"));
-        String definition = item.getString(item.getColumnIndex("definition"));
+        String word = item.getString(item.getColumnIndex("russian"));
+        String definition = item.getString(item.getColumnIndex("foreign"));
         ((MainApplication)getActivity().getApplication()).getTracker().send(new HitBuilders.EventBuilder()
                 .setCategory("translation")
                 .setAction(languageName)

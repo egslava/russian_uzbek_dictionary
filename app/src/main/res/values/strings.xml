@@ -4,10 +4,6 @@
     <string name="app_name">Phrase book</string>
     <string name="choose_language">Choose language</string>
     <string name="type_here_to_filter">Type here to filter</string>
-    <string-array name="dicts">
-        <item>Russian-Tatar</item>
-        <item>Tatar-Russian</item>
-    </string-array>
 
     <string name="please_wait">Please wait</string>
     <string name="first_time_load">Dictionaries are needed time to load for the first time.</string>
@@ -17,5 +13,21 @@
 
     <string-array name="languages">
         <item>Uzbek</item>
+    </string-array>
+    
+    <string-array name="direct_translation">
+        <item>Russian-Uzbek</item>
+        <item>Russian-Tajik</item>
+        <item>Russian-Kirgiz</item>
+        <item>Russian-Kazah</item>
+        <item>Russian-Azeri</item>
+    </string-array>
+
+    <string-array name="reverse_translation">
+        <item>Uzbek-Russian</item>
+        <item>Tajik-Russian</item>
+        <item>Kirgiz-Russian</item>
+        <item>Kazah-Russian</item>
+        <item>Azeri-Russian</item>
     </string-array>
 </resources>

@@ -1,6 +1,5 @@
-package ru.egslava.tatar_dictionary;
+package ru.egslava.tatar_dictionary.phrases;
 
-import android.app.ProgressDialog;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -12,16 +11,18 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
 import org.androidannotations.annotations.AfterViews;
-import org.androidannotations.annotations.Background;
 import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.EActivity;
+import org.androidannotations.annotations.Extra;
 import org.androidannotations.annotations.UiThread;
 import org.androidannotations.annotations.ViewById;
 import org.androidannotations.annotations.res.StringArrayRes;
-import org.androidannotations.annotations.res.StringRes;
+import org.apache.commons.lang3.ArrayUtils;
+import org.apache.commons.lang3.StringUtils;
 
+import ru.egslava.tatar_dictionary.ChooseLanguageActivity;
+import ru.egslava.tatar_dictionary.R;
 import ru.egslava.tatar_dictionary.db.DB;
-import ru.egslava.tatar_dictionary.db.DBHelper;
 
 @EActivity(R.layout.activity_main)
 public class PhrasesActivity extends ActionBarActivity {
@@ -31,12 +32,16 @@ public class PhrasesActivity extends ActionBarActivity {
     @ViewById   AdView                  adView;
     @ViewById   ViewPager               pager;
 
-    @StringArrayRes     String[] dicts;
+    @Extra      int                     themeId;
+    @Extra      String                  languageName;
+
+    @StringArrayRes String[]            directTranslation, reverseTranslation;
 
     @Bean       DB                      db;
 
     @AfterViews void init(){
         adView.loadAd(new AdRequest.Builder().build());
+        initPager();
     }
 
     @UiThread(propagation = UiThread.Propagation.REUSE)
@@ -45,11 +50,13 @@ public class PhrasesActivity extends ActionBarActivity {
             @Override public int getCount() { return 2; }
             @Override public Fragment getItem(int i) {
                 switch(i){
-                    case 0: return DictionaryFragment_.builder()
-                            .languageName("uz")
+                    case 0: return PhrasesFragment_.builder()
+                            .languageName( languageName )
+                            .themeId(themeId)
                             .build();
-                    case 1: return DictionaryFragment_.builder()
-                            .languageName("uz")
+                    case 1: return PhrasesFragment_.builder()
+                            .languageName( languageName )
+                            .themeId(themeId)
                             .letters(new String[]{"ә", "җ", "ң", "ө", "ү", "h"})
                             .build();
                 }
@@ -58,7 +65,14 @@ public class PhrasesActivity extends ActionBarActivity {
 
             @Override
             public CharSequence getPageTitle(int position) {
-                return dicts[position];
+                int languageCode = ArrayUtils.indexOf(
+                        ChooseLanguageActivity.languagesCodes,
+                        languageName);
+
+                switch (position){
+                    case 0: return directTranslation[languageCode];
+                    default: return reverseTranslation[languageCode];
+                }
             }
         });
         tabs.setViewPager(pager);
