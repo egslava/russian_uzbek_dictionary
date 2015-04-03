@@ -1,23 +1,13 @@
 package ru.egslava.tatar_dictionary;
 
-import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 
-import org.androidannotations.annotations.Background;
 import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.EActivity;
-import org.androidannotations.annotations.UiThread;
 import org.androidannotations.annotations.res.StringArrayRes;
-import org.androidannotations.annotations.res.StringRes;
 
 import ru.egslava.tatar_dictionary.db.DB;
-import ru.egslava.tatar_dictionary.db.DBHelper;
-import ru.egslava.tatar_dictionary.themes.ChooseThemeActivity;
 import ru.egslava.tatar_dictionary.themes.ChooseThemeActivity_;
 
 /**
@@ -29,7 +19,7 @@ public class ChooseLanguageActivity extends ActionBarActivity {
 //    public ListView listView;
 //    public ArrayAdapter<String> adapter;
 
-    public static final String[]    languagesCodes = {"uz"};
+    public static final String[]    languagesCodes = {"uz", "tj", "kg", "kz"};
     @StringArrayRes String[]        languages;
     @Bean           DB              db;         // init db with data
 
@@ -43,7 +33,7 @@ public class ChooseLanguageActivity extends ActionBarActivity {
 //        listView.setOnItemClickListener(this);
 //
 //        setContentView(listView);
-        ChooseThemeActivity_.intent(this).language( languagesCodes[0]).start();
+        ChooseThemeActivity_.intent(this).language( Flavor.language ).start();
         finish();
     }
 //
@@ -51,3 +41,11 @@ public class ChooseLanguageActivity extends ActionBarActivity {
 //        ChooseThemeActivity_.intent(this).language(languagesCodes[position]).start();
 //    }
 }
+
+// Must have regexes for data convertion:
+//^\d+\%[^%.]+\%[^%]+$          less fields than expected
+//        ^\d+\%[^%.]+$         less fields than expected
+//
+//        \%$ -> \%1            ends with just % without any group id
+//        $\n(\D) -> ' $1'      same shit
+//        \n(\D) ->  $1         fucken line-breakings in places they aren't needed

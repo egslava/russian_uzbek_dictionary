@@ -51,7 +51,7 @@ public class DB {
     }
 
     private DBHelper db;
-    public  DBHelper db(){
+    public DBHelper db(){
         if (db == null){
             db = new DBHelper(context);
         }

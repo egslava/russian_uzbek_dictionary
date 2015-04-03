@@ -1,6 +1,5 @@
 package ru.egslava.tatar_dictionary.themes;
 
-import android.app.Activity;
 import android.content.Context;
 import android.database.Cursor;
 import android.support.v4.content.CursorLoader;

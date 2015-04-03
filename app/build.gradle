@@ -7,22 +7,18 @@ android {
     buildToolsVersion "21.1.1"
 
     defaultConfig {
-        applicationId "ru.egslava.tatar_dictionary"
+//        applicationId "ru.egslava.tatar_dictionary"
         minSdkVersion 9
         targetSdkVersion 21
         versionCode 2
         versionName "1.2"
     }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
 
-    packagingOptions {
-        exclude 'META-INF/LICENSE.txt'
-        exclude 'META-INF/NOTICE.txt'
+    productFlavors {
+        kazah { applicationId "ru.egslava.kazah_phrasebook" }
+        kirgiz{ applicationId "ru.egslava.kirgiz_phrasebook" }
+        tajik { applicationId "ru.egslava.tajik_phrasebook" }
+        uzbek { applicationId "ru.egslava.uzbek_phrasebook" }
     }
 
     Properties p = new Properties()
@@ -40,7 +36,14 @@ android {
     buildTypes {
         release {
             signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
     }
 }
 

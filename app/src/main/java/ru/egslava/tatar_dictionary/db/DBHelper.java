@@ -3,6 +3,7 @@ package ru.egslava.tatar_dictionary.db;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -11,6 +12,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+import ru.egslava.tatar_dictionary.Flavor;
 import ru.egslava.tatar_dictionary.R;
 
 /**
@@ -34,7 +36,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     public static String insertPhrase(String languageName) {
         return String.format(
-                "INSERT INTO %s (`_id`, `russian`, `foreign`, `id_theme`) VALUES (?, ?, ?, ?)",
+                "INSERT INTO %s (`russian`, `foreign`, `id_theme`) VALUES (?, ?, ?)",
                 languageName + PHRASES);
     }
 
@@ -53,7 +55,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        fill(db, "uz", R.raw.uz_phrases, R.raw.uz_themes);
+        fill(db, Flavor.language, Flavor.phrasesFileImportRes, Flavor.themesFileImportRes);
     }
 
     private void fill(SQLiteDatabase db, String languageName, int phrasesFileId, int themesFileId){
@@ -72,7 +74,14 @@ public class DBHelper extends SQLiteOpenHelper {
             String s;
             while( buf.ready() ){
                 s = buf.readLine();
-                db.execSQL(insertPhrase(languageName), StringUtils.split(s, '%'));
+                String[] args = StringUtils.split(s, '%');
+
+                // adding data without id (fix _id unique constraint)
+                if (args.length == 4){
+                    db.execSQL(insertPhrase(languageName), new String[]{ args[1], args[2], args[3] });
+                } else {
+                    Log.e("Invalid data", s);
+                }
             }
 
         } catch (IOException e) {

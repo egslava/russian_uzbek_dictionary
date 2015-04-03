@@ -1,5 +1,6 @@
 package ru.egslava.tatar_dictionary.phrases;
 
+import android.app.Activity;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -46,8 +47,9 @@ public class PhrasesActivity extends ActionBarActivity {
 
     @UiThread(propagation = UiThread.Propagation.REUSE)
     void initPager(){
+        getSupportActionBar().hide();
         pager.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
-            @Override public int getCount() { return 2; }
+            @Override public int getCount() { return 1; }
             @Override public Fragment getItem(int i) {
                 switch(i){
                     case 0: return PhrasesFragment_.builder()
