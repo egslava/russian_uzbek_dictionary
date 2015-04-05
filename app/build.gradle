@@ -15,6 +15,7 @@ android {
     }
 
     productFlavors {
+        azeri { applicationId "ru.egslava.azeri_phrasebook" }
         kazah { applicationId "ru.egslava.kazah_phrasebook" }
         kirgiz{ applicationId "ru.egslava.kirgiz_phrasebook" }
         tajik { applicationId "ru.egslava.tajik_phrasebook" }

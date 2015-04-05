@@ -19,8 +19,7 @@ public class ChooseLanguageActivity extends ActionBarActivity {
 //    public ListView listView;
 //    public ArrayAdapter<String> adapter;
 
-    public static final String[]    languagesCodes = {"uz", "tj", "kg", "kz"};
-    @StringArrayRes String[]        languages;
+    public static final String[]    languagesCodes = {"uz", "tj", "kg", "kz", "az"};
     @Bean           DB              db;         // init db with data
 
     @Override protected void onCreate(Bundle savedInstanceState) {
