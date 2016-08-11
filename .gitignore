@@ -10,7 +10,7 @@ app/src/main/res/raw/uz_rus.csv
 
 *.keystore
 
-/*.iml
+*.iml
 
 ## Directory-based project format:
 .idea/
