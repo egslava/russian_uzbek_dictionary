@@ -7,15 +7,12 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.FrameLayout;
 
 import com.astuetz.PagerSlidingTabStrip;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-
-import ru.egslava.tatar_dictionary.R;
 
 public class MainActivity extends AppCompatActivity {
 
