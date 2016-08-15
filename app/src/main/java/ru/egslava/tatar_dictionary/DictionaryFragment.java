@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
@@ -25,39 +26,15 @@ import android.widget.ListView;
 
 import com.google.android.gms.analytics.HitBuilders;
 
-import org.androidannotations.annotations.AfterViews;
-import org.androidannotations.annotations.EFragment;
-import org.androidannotations.annotations.FragmentArg;
-import org.androidannotations.annotations.OptionsMenu;
-import org.androidannotations.annotations.OptionsMenuItem;
-import org.androidannotations.annotations.SystemService;
-import org.androidannotations.annotations.ViewById;
-import org.apache.commons.lang3.StringUtils;
 
-import ru.egslava.tatar_dictionary.R;
-
-
-@EFragment(R.layout.fragment_word_list)
-@OptionsMenu(R.menu.main)
 public class DictionaryFragment extends Fragment implements LoaderManager.LoaderCallbacks<Cursor>,
         FilterQueryProvider, SearchView.OnQueryTextListener, AdapterView.OnItemClickListener {
 
     public static final int URL_LOADER = 0;
 
-    @OptionsMenuItem(R.id.search)
     MenuItem searchItem;
 
-    @FragmentArg
-    String tableName;
-
-    @FragmentArg
-    String[] letters;
-
-    @ViewById
     ListView                        list;
-
-    @SystemService
-    LayoutInflater  inflater;
 
     private SimpleCursorAdapter     adapter;
     private Cursor cursor;
@@ -67,13 +44,11 @@ public class DictionaryFragment extends Fragment implements LoaderManager.Loader
     private SearchView actionSearch;
     private Uri uri;
 
-    @ViewById(R.id.letters)
-    ViewGroup lettersLayout;
     private View.OnClickListener letterInserter = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             if (actionSearchEditText == null) return;   //is not inflated yet
-            Button button = (Button) v;
+
             if (actionSearch.isIconified()){
                 MenuItemCompat.expandActionView(searchItem);
             }
@@ -83,8 +58,33 @@ public class DictionaryFragment extends Fragment implements LoaderManager.Loader
 
     private EditText actionSearchEditText;
 
-    @AfterViews
-    void init(){
+    String[]    letters;
+    String      tableName;
+
+    public static DictionaryFragment newInstance(String tableName, String[] letters){
+        Bundle bundle = new Bundle();
+        bundle.putString("table", tableName);
+        bundle.putStringArray("letters", letters);
+        DictionaryFragment frag = new DictionaryFragment();
+        frag.setArguments(bundle);
+        return frag;
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Bundle args = getArguments();
+        letters = args.getStringArray("letters");
+        tableName = args.getString("table");
+
+    }
+
+    @Nullable @Override public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_word_list, container, false);
+
+                    list            = (ListView) view.findViewById(R.id.list);
+        ViewGroup   lettersLayout   = (ViewGroup)view.findViewById(R.id.letters);
+
         uri = Uri.parse("content://" + tableName);
 
         ac = (MainActivity)getActivity();
@@ -112,12 +112,14 @@ public class DictionaryFragment extends Fragment implements LoaderManager.Loader
         }
 
         getLoaderManager().initLoader(URL_LOADER, null, this);
+        return view;
     }
 
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        super.onCreateOptionsMenu(menu, inflater);
+        inflater.inflate(R.menu.main, menu);
+        searchItem = menu.findItem(R.id.search);
 
         actionSearch = (SearchView) MenuItemCompat.getActionView(searchItem);
         actionSearch.setOnQueryTextListener(this);
@@ -125,16 +127,15 @@ public class DictionaryFragment extends Fragment implements LoaderManager.Loader
         actionSearchEditText = (EditText) actionSearch.findViewById(android.support.v7.appcompat.R.id.search_src_text);
     }
 
-    @OptionsMenuItem
-    MenuItem search;
-
     @Override
     public Loader<Cursor> onCreateLoader(int loaderId, Bundle bundle) {
         switch(loaderId){
             case URL_LOADER:
+                if (bundle == null) return new DictionaryCursorLoader(ac, uri, null, null, null, null);
 
-                if (bundle != null && StringUtils.isNotBlank(bundle.getString("filter"))){
-                    return new DictionaryCursorLoader(ac, uri, null, "word LIKE(?)", new String[]{bundle.getString("filter") + "%"}, null);
+                String filter = bundle.getString("filter");
+                if (filter != null && !filter.trim().isEmpty()){
+                    return new DictionaryCursorLoader(ac, uri, null, "word LIKE(?)", new String[]{filter + "%"}, null);
                 }else{
                     return new DictionaryCursorLoader(ac, uri, null, null, null, null);
                 }

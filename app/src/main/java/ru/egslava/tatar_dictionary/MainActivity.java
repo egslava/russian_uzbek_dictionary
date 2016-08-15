@@ -1,40 +1,23 @@
 package ru.egslava.tatar_dictionary;
 
 import android.app.ProgressDialog;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.FrameLayout;
 
 import com.astuetz.PagerSlidingTabStrip;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
-import org.androidannotations.annotations.AfterViews;
-import org.androidannotations.annotations.Background;
-import org.androidannotations.annotations.EActivity;
-import org.androidannotations.annotations.UiThread;
-import org.androidannotations.annotations.ViewById;
-import org.androidannotations.annotations.res.StringArrayRes;
-import org.androidannotations.annotations.res.StringRes;
-
 import ru.egslava.tatar_dictionary.R;
 
-@EActivity(R.layout.activity_main)
-public class MainActivity extends ActionBarActivity {
-
-    @ViewById
-    PagerSlidingTabStrip    tabs;
-
-    @ViewById
-    FrameLayout ad;
-
-    @ViewById
-    AdView  adView;
-
-    @ViewById
-    ViewPager               pager;
+public class MainActivity extends AppCompatActivity {
 
     DBHelper                db;
     private ProgressDialog progressDialog;
@@ -46,37 +29,52 @@ public class MainActivity extends ActionBarActivity {
         return db;
     }
 
-    @StringArrayRes
-    String[] dicts;
+    // ---> injects...
+    PagerSlidingTabStrip    tabs;
+    ViewPager               pager;
 
-    @StringRes
-    String  please_wait;
+    String[]    dicts;
+    // <--- injects
 
-    @StringRes
-    String first_time_load;
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
 
-    @AfterViews
-    void init(){
-        progressDialog = ProgressDialog.show(this, please_wait, first_time_load, true, false);
+        // res
+        dicts               = getResources().getStringArray(R.array.dicts);
+
+        setContentView(R.layout.activity_main);
+
+        FrameLayout     ad          = (FrameLayout)findViewById(R.id.ad);
+        AdView          adView      = (AdView) findViewById(R.id.adView);
+                        tabs        = (PagerSlidingTabStrip)findViewById(R.id.tabs);
+                        pager       = (ViewPager)findViewById(R.id.pager);
+
+        progressDialog = ProgressDialog.show(this, getString(R.string.please_wait), getString(R.string.first_time_load), true, false);
         adView.loadAd(new AdRequest.Builder().build());
         loadDb();
     }
 
-    @Background void loadDb(){ db().getReadableDatabase(); initPager();}
+    void loadDb(){
+        new AsyncTask<Void, Void, Void>(){
+            @Override protected Void doInBackground(Void... params) {
+                db().getReadableDatabase();
+                return null;
+            }
 
-    @UiThread(propagation = UiThread.Propagation.REUSE)
+            @Override protected void onPostExecute(Void aVoid) {
+                initPager();
+            }
+        }.execute();
+    }
+
     void initPager(){
         pager.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
             @Override public int getCount() { return 2; }
             @Override public Fragment getItem(int i) {
                 switch(i){
-                    case 0: return DictionaryFragment_.builder()
-                            .tableName("rus_tatar")
-                            .build();
-                    case 1: return DictionaryFragment_.builder()
-                            .tableName("tatar_rus")
-                            .letters(new String[]{"ә", "җ", "ң", "ө", "ү", "h"})
-                            .build();
+                    case 0: return DictionaryFragment.newInstance("from_rus", null);
+                    case 1: return DictionaryFragment.newInstance("to_rus", getResources().getStringArray(R.array.letters) );
                 }
                 return null;
             }

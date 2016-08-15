@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Russian-Tatar Dictionary</string>
     <string name="type_here_to_filter">Type here to filter</string>
-    <string-array name="dicts">
-        <item>Russian-Tatar</item>
-        <item>Tatar-Russian</item>
-    </string-array>
 
     <string name="please_wait">Please wait</string>
     <string name="first_time_load">Dictionaries are needed time to load for the first time.</string>
-
-    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
-    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-4685960408834415/3271412290</string>
-
 </resources>

@@ -4,14 +4,11 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import org.apache.commons.lang3.StringUtils;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-
-import ru.egslava.tatar_dictionary.R;
 
 /**
  * Created by egslava on 29/11/14.
@@ -39,8 +36,8 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        fillWords(db, "rus_tatar", R.raw.rus_tatar);
-        fillWords(db, "tatar_rus", R.raw.tatar_rus);
+        fillWords(db, "from_rus", R.raw.from_rus);
+        fillWords(db, "to_rus", R.raw.to_rus);
 
     }
 
@@ -55,7 +52,7 @@ public class DBHelper extends SQLiteOpenHelper {
             String s;
             while( buf.ready() ){
                 s = buf.readLine();
-                db.execSQL(insertWord( tableName), StringUtils.split(s, '%'));
+                db.execSQL(insertWord( tableName), s.split("%"));
             }
 
         } catch (IOException e) {

@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Русско-татарский словарь</string>
     <string name="type_here_to_filter">Введите здесь фильтр</string>
-    <string-array name="dicts">
-        <item>русско-татарский</item>
-        <item>татарско-русский</item>
-    </string-array>
-
 
     <string name="please_wait">Подождите...</string>
     <string name="first_time_load">При первом запуске нужно немного времени, чтобы прогрузить словари.</string>
-
 </resources>
