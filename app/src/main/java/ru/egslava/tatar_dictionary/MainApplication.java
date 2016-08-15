@@ -1,6 +1,7 @@
 package ru.egslava.tatar_dictionary;
 
 import android.app.Application;
+import android.support.multidex.MultiDexApplication;
 
 //import com.google.analytics.tracking.android.GoogleAnalytics;
 //import com.google.analytics.tracking.android.Tracker;
@@ -18,7 +19,7 @@ import ru.egslava.tatar_dictionary.R;
  */
 
 @EApplication
-public class MainApplication extends Application {
+public class MainApplication extends MultiDexApplication {
 
     Tracker tracker;
 
