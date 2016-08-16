@@ -9,8 +9,8 @@ android {
 //        applicationId "ru.egslava.tatar_dictionary"
         minSdkVersion 9
         targetSdkVersion 23
-        versionCode 4
-        versionName "1.4"
+        versionCode 8
+        versionName "1.8"
 
         multiDexEnabled false
     }
