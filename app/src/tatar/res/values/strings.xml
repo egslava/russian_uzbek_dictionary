@@ -11,13 +11,13 @@
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-4685960408834415/3271412290</string>
 
 
-    <string-array name="letters">
-        <item>ә</item>
-        <item>җ</item>
-        <item>ң</item>
-        <item>ө</item>
-        <item>ү</item>
-        <item>h</item>
-    </string-array>
+    <!--<string-array name="letters">-->
+        <!--<item>ә</item>-->
+        <!--<item>җ</item>-->
+        <!--<item>ң</item>-->
+        <!--<item>ө</item>-->
+        <!--<item>ү</item>-->
+        <!--<item>h</item>-->
+    <!--</string-array>-->
 
 </resources>

@@ -48,10 +48,10 @@ android {
     productFlavors {
         tatar       { applicationId "ru.egslava.tatar_dictionary" }
         azeri       { applicationId "ru.egslava.azerbaijani_dictionary" }
-        kazah       { applicationId "ru.egslava.armenian_dictionary" }
-        kirgiz      { applicationId "ru.egslava.belorussian_dictionary" }
-        tajik       { applicationId "ru.egslava.georgian_dictionary" }
-        uzbek       { applicationId "ru.egslava.kazakh_dictionary" }
+        kazah       { applicationId "ru.egslava.kazah_dictionary" }
+        kirgiz      { applicationId "ru.egslava.kirgiz_dictionary" }
+        tajik       { applicationId "ru.egslava.tajik_dictionary" }
+        uzbek       { applicationId "ru.egslava.uzbek_dictionary" }
     }
 }
 

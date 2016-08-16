@@ -77,7 +77,6 @@ public class DictionaryFragment extends Fragment implements LoaderManager.Loader
         Bundle args = getArguments();
         letters = args.getStringArray("letters");
         tableName = args.getString("table");
-
     }
 
     @Nullable @Override public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

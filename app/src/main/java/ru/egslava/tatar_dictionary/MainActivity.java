@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     DBHelper                db;
     private ProgressDialog progressDialog;
+    private Utils utils;
 
     public DBHelper db(){
         if (db == null){
@@ -37,18 +38,21 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        utils = Utils.getInstance(this);
         // res
         dicts               = getResources().getStringArray(R.array.dicts);
 
         setContentView(R.layout.activity_main);
 
         FrameLayout     ad          = (FrameLayout)findViewById(R.id.ad);
-        AdView          adView      = (AdView) findViewById(R.id.adView);
+//        AdView          adView      = (AdView) findViewById(R.id.adView);
                         tabs        = (PagerSlidingTabStrip)findViewById(R.id.tabs);
                         pager       = (ViewPager)findViewById(R.id.pager);
 
         progressDialog = ProgressDialog.show(this, getString(R.string.please_wait), getString(R.string.first_time_load), true, false);
-        adView.loadAd(new AdRequest.Builder().build());
+
+//        adView.loadAd(new AdRequest.Builder().build());
+        utils.initAd(ad);
         loadDb();
     }
 
@@ -71,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             @Override public Fragment getItem(int i) {
                 switch(i){
                     case 0: return DictionaryFragment.newInstance("from_rus", null);
-                    case 1: return DictionaryFragment.newInstance("to_rus", getResources().getStringArray(R.array.letters) );
+                    case 1: return DictionaryFragment.newInstance("to_rus", Constants.letters );
                 }
                 return null;
             }
