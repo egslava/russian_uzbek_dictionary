@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Russian-Tajik Dictionary</string>
+    <string-array name="dicts">
+        <item>Russian-Tajik</item>
+        <item>Tajik-Russian</item>
+    </string-array>
+
+    <string name="banner_ad_unit_id">ca-app-pub-4685960408834415/5254567092</string>
+
+
+    <!--<string-array name="letters">-->
+        <!--<item>ә</item>-->
+        <!--<item>җ</item>-->
+        <!--<item>ң</item>-->
+        <!--<item>ө</item>-->
+        <!--<item>ү</item>-->
+        <!--<item>h</item>-->
+    <!--</string-array>-->
+
+</resources>

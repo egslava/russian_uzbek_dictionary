@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Русско-таджикский словарь</string>
+    <string-array name="dicts">
+        <item>русско-таджикский</item>
+        <item>таджикско-русский</item>
+    </string-array>
+
+</resources>
