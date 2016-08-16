@@ -18,6 +18,6 @@
     <!--  The following value should be replaced with correct property id. -->
     <!--<string name="ga_logLevel">verbose</string>-->
     <!--<string name="ga_trackingId">UA-58964314-1</string>-->
-    <string name="ga_trackingId">UA-62115343-23</string>
+    <string name="ga_trackingId">UA-62115343-25</string>
 
 </resources>
