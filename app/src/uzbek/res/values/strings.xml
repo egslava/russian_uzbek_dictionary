@@ -3,8 +3,9 @@
 
     <string name="app_name">Russian-Uzbek Dictionary</string>
     <string-array name="dicts">
-        <item>Russian-Uzbek</item>
-        <item>Uzbek-Russian</item>
+        <item>To Uzbek</item>
+        <item>To Russian</item>
+        <item>To Russian (lat)</item>
     </string-array>
 
     <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->

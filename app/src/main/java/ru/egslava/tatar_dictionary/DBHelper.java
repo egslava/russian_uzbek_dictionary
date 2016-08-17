@@ -36,8 +36,10 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        fillWords(db, "from_rus", R.raw.from_rus);
-        fillWords(db, "to_rus", R.raw.to_rus);
+        for (int i = 0; i < Constants.csvs.length; i++){
+            fillWords(db, Constants.tables[i], Constants.csvs[i]);
+        }
+//        fillWords(db, "to_rus", R.raw.to_rus);
     }
 
     private void fillWords(SQLiteDatabase db, String tableName, int wordFileResId) {

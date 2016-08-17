@@ -3,8 +3,9 @@
 
     <string name="app_name">Русско-узбекский словарь</string>
     <string-array name="dicts">
-        <item>русско-узбекский</item>
-        <item>узбекско-русский</item>
+        <item>На Узбекский</item>
+        <item>На Русский</item>
+        <item>На Русский (лат)</item>
     </string-array>
 
 </resources>

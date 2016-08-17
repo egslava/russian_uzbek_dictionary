@@ -71,13 +71,10 @@ public class MainActivity extends AppCompatActivity {
 
     void initPager(){
         pager.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
-            @Override public int getCount() { return 2; }
+            @Override public int getCount() { return Constants.tables.length; }
             @Override public Fragment getItem(int i) {
-                switch(i){
-                    case 0: return DictionaryFragment.newInstance("from_rus", null);
-                    case 1: return DictionaryFragment.newInstance("to_rus", Constants.letters );
-                }
-                return null;
+                // only second tab has special letters
+                return DictionaryFragment.newInstance(Constants.tables[i], i == 1? Constants.letters : null);
             }
 
             @Override
