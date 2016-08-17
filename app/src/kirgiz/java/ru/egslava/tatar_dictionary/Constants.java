@@ -7,4 +7,7 @@ public class Constants {
 
 
     public static final String[] letters = {"ө", "ң", "ү"};
+
+    public static final String[] tables = {"from_rus", "to_rus"};
+    public static final int[] csvs = {R.raw.from_rus, R.raw.to_rus};
 }
