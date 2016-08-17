@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Русско-киргизский словарь</string>
+    <string-array name="dicts">
+        <item>русско-киргизско</item>
+        <item>киргизско-русский</item>
+    </string-array>
+
+</resources>

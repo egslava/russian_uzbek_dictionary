@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Russian-Kyrgyz Dictionary</string>
+    <string-array name="dicts">
+        <item>Russian-Kyrgyz</item>
+        <item>Kyrgyz-Russian</item>
+    </string-array>
+
+    <string name="banner_ad_unit_id">ca-app-pub-4685960408834415/5838370694</string>
+
+
+    <!--<string-array name="letters">-->
+        <!--<item>ә</item>-->
+        <!--<item>җ</item>-->
+        <!--<item>ң</item>-->
+        <!--<item>ө</item>-->
+        <!--<item>ү</item>-->
+        <!--<item>h</item>-->
+    <!--</string-array>-->
+
+</resources>
