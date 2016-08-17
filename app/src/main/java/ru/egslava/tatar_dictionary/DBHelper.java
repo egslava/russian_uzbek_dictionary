@@ -38,12 +38,11 @@ public class DBHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         fillWords(db, "from_rus", R.raw.from_rus);
         fillWords(db, "to_rus", R.raw.to_rus);
-
     }
 
     private void fillWords(SQLiteDatabase db, String tableName, int wordFileResId) {
         try {
-            db.execSQL( createTable(tableName));
+            db.execSQL( createTable(tableName) );
 
             InputStream inputStream = context.getResources().openRawResource( wordFileResId );
             InputStreamReader reader = new InputStreamReader(inputStream);
